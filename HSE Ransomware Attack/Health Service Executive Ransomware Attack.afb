@@ -1,0 +1,1595 @@
+{
+    "schema": "attack_flow_v2",
+    "theme": "dark_theme",
+    "objects": [
+        {
+            "id": "flow",
+            "instance": "6f6f7fe1-38f7-4603-a3c6-f5fa1fc62b2a",
+            "properties": [
+                [
+                    "name",
+                    "Health Service Executive Ransomware Attack"
+                ],
+                [
+                    "description",
+                    null
+                ],
+                [
+                    "author",
+                    [
+                        [
+                            "name",
+                            "Hayden Abrahams"
+                        ],
+                        [
+                            "identity_class",
+                            null
+                        ],
+                        [
+                            "contact_information",
+                            null
+                        ]
+                    ]
+                ],
+                [
+                    "scope",
+                    "incident"
+                ],
+                [
+                    "external_references",
+                    []
+                ],
+                [
+                    "created",
+                    {
+                        "time": "2025-09-03T12:12:06.812+09:30",
+                        "zone": "Australia/Adelaide"
+                    }
+                ]
+            ],
+            "objects": [
+                "321f25c2-d000-4c51-b02d-ff81175dd178",
+                "73151409-bcea-478b-b582-37281bee69da",
+                "ce7c371e-d742-4891-ba4d-c6c57332eabe",
+                "31b09112-dc9c-4bc2-8f51-786e812a2cc0",
+                "f84a1526-2146-405a-b00b-5860834304b9",
+                "dfd68025-03e5-4e69-a683-e6e72dcda888",
+                "0adb50b6-22e6-4ae4-b621-ef44f5d34103",
+                "1fde965d-e00b-4c80-a9f5-560619fa93e0",
+                "01c436df-a8e2-47b1-b402-a7386b6b6f8a",
+                "152e82b0-0b40-41e0-927c-f2991dbd9636",
+                "f916f356-5989-49c4-80e1-0b5b0e809a9e",
+                "1f1ec52b-0b8c-46cb-a298-675a6bbe4f42",
+                "ee3e0caf-544c-4244-89f5-0dcf7756aa24",
+                "57a544ec-0875-4765-94e0-d9bb77d1b7f0",
+                "642d488c-a0b5-49e4-8861-87f15899ad35",
+                "aaa0ed55-c1c1-4cd6-a8e7-d1a8331598ed",
+                "2acdc2ff-dc94-4fa8-a1ec-6125dfbfb58b",
+                "61f9ea42-a1f8-45db-9301-f02113538402",
+                "77d64623-d78b-4a2a-9dd6-5486ebbba133",
+                "1ba82511-d54d-4589-936e-e1f0327592c1",
+                "22a3c73c-1d64-4549-92c2-f2f7b3fc323c"
+            ]
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "321f25c2-d000-4c51-b02d-ff81175dd178",
+            "source": "22ba3b40-d0a9-4941-bae4-5bec34abce33",
+            "target": "58433ac1-4798-424d-bf25-8c3e58a323d2",
+            "handles": [
+                "edca2e03-246d-4ce4-9ed2-d88b090d39f3"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "22ba3b40-d0a9-4941-bae4-5bec34abce33"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "58433ac1-4798-424d-bf25-8c3e58a323d2"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "edca2e03-246d-4ce4-9ed2-d88b090d39f3"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "73151409-bcea-478b-b582-37281bee69da",
+            "source": "3681be4f-0c68-4016-b866-69c173aa26c1",
+            "target": "d4e5d6ca-a393-43c7-a040-c20386f2828b",
+            "handles": [
+                "9590dae7-7fee-4fe8-b47c-1e3b7cfccee7"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "3681be4f-0c68-4016-b866-69c173aa26c1"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "d4e5d6ca-a393-43c7-a040-c20386f2828b"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "9590dae7-7fee-4fe8-b47c-1e3b7cfccee7"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "ce7c371e-d742-4891-ba4d-c6c57332eabe",
+            "source": "87c4cbe9-e37f-4af3-a828-06e256a6bcf4",
+            "target": "d40e13ec-c932-421d-a167-224a9a3d3676",
+            "handles": [
+                "33e43af7-6b5e-4f5a-a1c4-f37b1537b7fe"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "87c4cbe9-e37f-4af3-a828-06e256a6bcf4"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "d40e13ec-c932-421d-a167-224a9a3d3676"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "33e43af7-6b5e-4f5a-a1c4-f37b1537b7fe"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "31b09112-dc9c-4bc2-8f51-786e812a2cc0",
+            "source": "afa4f28a-bd8d-437a-9c46-1d2c41dac2c5",
+            "target": "9956b997-6b1e-4b70-92ea-33ef83e7ee05",
+            "handles": [
+                "322ea6b9-e10b-4475-b306-ab6ac77c23b8"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "afa4f28a-bd8d-437a-9c46-1d2c41dac2c5"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "9956b997-6b1e-4b70-92ea-33ef83e7ee05"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "322ea6b9-e10b-4475-b306-ab6ac77c23b8"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "f84a1526-2146-405a-b00b-5860834304b9",
+            "source": "d107e898-a8cc-44b8-83e3-95f131246ba4",
+            "target": "2c50dda7-81c8-4a57-81c9-7a861f78a335",
+            "handles": [
+                "fff5f35b-9cf4-49ed-98db-ebb79cbeb90d"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "d107e898-a8cc-44b8-83e3-95f131246ba4"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "2c50dda7-81c8-4a57-81c9-7a861f78a335"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "fff5f35b-9cf4-49ed-98db-ebb79cbeb90d"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "dfd68025-03e5-4e69-a683-e6e72dcda888",
+            "source": "67ae6a1d-b71c-4584-94fa-58bffec36bc5",
+            "target": "eca6ffe6-44b4-41df-8a7d-f20b60882f2b",
+            "handles": [
+                "b856827c-4c42-4c6a-b289-f3ef5b9dee94"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "67ae6a1d-b71c-4584-94fa-58bffec36bc5"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "eca6ffe6-44b4-41df-8a7d-f20b60882f2b"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "b856827c-4c42-4c6a-b289-f3ef5b9dee94"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "0adb50b6-22e6-4ae4-b621-ef44f5d34103",
+            "source": "55afe125-481b-4088-b01f-b2d60e74af92",
+            "target": "200daef8-9570-4196-bff5-b81e06463cdd",
+            "handles": [
+                "9ad0907c-1032-4951-8a13-2e393f58c5a2"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "55afe125-481b-4088-b01f-b2d60e74af92"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "200daef8-9570-4196-bff5-b81e06463cdd"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "9ad0907c-1032-4951-8a13-2e393f58c5a2"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "1fde965d-e00b-4c80-a9f5-560619fa93e0",
+            "source": "c9a63b3d-0fb9-4dbf-a5bf-88b53f47726e",
+            "target": "a2e8a7ed-de96-4346-8271-e341776dcfdf",
+            "handles": [
+                "e7a49028-4320-4ffd-8ff5-8d7adca8b09c"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "c9a63b3d-0fb9-4dbf-a5bf-88b53f47726e"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "a2e8a7ed-de96-4346-8271-e341776dcfdf"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "e7a49028-4320-4ffd-8ff5-8d7adca8b09c"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "01c436df-a8e2-47b1-b402-a7386b6b6f8a",
+            "source": "9f8cfded-4553-4fd6-9cf1-dbb42b98074d",
+            "target": "0dd9e9b0-a0e4-4b83-8dfe-ef04327f4438",
+            "handles": [
+                "cca791b0-9ba0-4523-a38f-2c32523e43fb"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "9f8cfded-4553-4fd6-9cf1-dbb42b98074d"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "0dd9e9b0-a0e4-4b83-8dfe-ef04327f4438"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "cca791b0-9ba0-4523-a38f-2c32523e43fb"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "152e82b0-0b40-41e0-927c-f2991dbd9636",
+            "source": "bc558a3a-c40b-4bc7-9792-28c7715b49f9",
+            "target": "42473780-9063-4723-ac8d-fe738976b000",
+            "handles": [
+                "90b5a2ff-caf5-4d3e-b8ac-cfc59be0c3bf"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "bc558a3a-c40b-4bc7-9792-28c7715b49f9"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "42473780-9063-4723-ac8d-fe738976b000"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "90b5a2ff-caf5-4d3e-b8ac-cfc59be0c3bf"
+        },
+        {
+            "id": "action",
+            "instance": "f916f356-5989-49c4-80e1-0b5b0e809a9e",
+            "properties": [
+                [
+                    "name",
+                    "Phishing email sent to hospital workstation"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0001"
+                        ],
+                        [
+                            "technique",
+                            "T1566"
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "A malicious email was sent to a hospital workstation, containing a malicious excel file"
+                ],
+                [
+                    "confidence",
+                    "certain"
+                ],
+                [
+                    "execution_start",
+                    {
+                        "time": "2021-03-16T00:00:00.000+10:30",
+                        "zone": "Australia/Adelaide"
+                    }
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "f789aeb0-b252-493f-be90-4656ed94a67d",
+                "30": "02d6df9e-c9c9-40fb-9995-919736b87141",
+                "60": "5b7653e2-b8e5-443b-8c96-f87bc391ae5a",
+                "90": "3364c9bf-5c95-46c2-bc2f-6bf6ab38af52",
+                "120": "a3647da5-01ec-4005-a71c-b709952bcafa",
+                "150": "8c259f99-2ce1-4af0-837c-e893238293d8",
+                "180": "7d5be0f2-da6d-4e7f-8da5-fb812777a42c",
+                "210": "287a9a9f-97b0-46b2-b639-995aa6131e39",
+                "240": "89cd9690-a6f5-40ef-af62-e3eb2db372b9",
+                "270": "13fe954e-b203-47e0-8ba5-7969c2069eb0",
+                "300": "3898f48a-ad20-48cf-ae2b-e2c275058a44",
+                "330": "030c7c01-3157-4c84-9e14-a9513989f934"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "f789aeb0-b252-493f-be90-4656ed94a67d",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "02d6df9e-c9c9-40fb-9995-919736b87141",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "5b7653e2-b8e5-443b-8c96-f87bc391ae5a",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "3364c9bf-5c95-46c2-bc2f-6bf6ab38af52",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "a3647da5-01ec-4005-a71c-b709952bcafa",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "8c259f99-2ce1-4af0-837c-e893238293d8",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "7d5be0f2-da6d-4e7f-8da5-fb812777a42c",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "287a9a9f-97b0-46b2-b639-995aa6131e39",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "89cd9690-a6f5-40ef-af62-e3eb2db372b9",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "13fe954e-b203-47e0-8ba5-7969c2069eb0",
+            "latches": [
+                "22ba3b40-d0a9-4941-bae4-5bec34abce33"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "3898f48a-ad20-48cf-ae2b-e2c275058a44",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "030c7c01-3157-4c84-9e14-a9513989f934",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "1f1ec52b-0b8c-46cb-a298-675a6bbe4f42",
+            "properties": [
+                [
+                    "name",
+                    "Malicious Email opened"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0001"
+                        ],
+                        [
+                            "technique",
+                            "T1566"
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "A HSE staff member opened the phishing email and downloaded the malicious file, resulting in an infection of the workstation"
+                ],
+                [
+                    "confidence",
+                    "certain"
+                ],
+                [
+                    "execution_start",
+                    {
+                        "time": "2021-03-18T00:00:00.000+10:30",
+                        "zone": "Australia/Adelaide"
+                    }
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "ca2a1601-0800-48c7-a2ca-d7c5344e1603",
+                "30": "04c5c79a-e627-447f-9f8c-89b8433720da",
+                "60": "2d3333fd-5f6d-4423-a2e2-78b606e59a4c",
+                "90": "4cea2a16-d738-456a-9eca-9df1e4c93823",
+                "120": "73202edd-690a-4ca0-8b3b-b5c0fb661462",
+                "150": "3e0963b1-3708-4dea-8e11-de6df9bcae3e",
+                "180": "642ee3c2-1d9f-46b3-9fa0-4c52acfe2369",
+                "210": "f8bd6a4a-98a3-43da-ad88-389cb4b75d1b",
+                "240": "0c2c13cd-3a02-4a2d-9073-74e531debd74",
+                "270": "6ddddec6-757a-4d96-befd-d3a047e23324",
+                "300": "ab1c81b3-a8ee-4ebf-97a7-a9a5ed097be0",
+                "330": "1722130e-1f85-43ab-9531-5a92b77f8d76"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "ca2a1601-0800-48c7-a2ca-d7c5344e1603",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "04c5c79a-e627-447f-9f8c-89b8433720da",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "2d3333fd-5f6d-4423-a2e2-78b606e59a4c",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "4cea2a16-d738-456a-9eca-9df1e4c93823",
+            "latches": [
+                "58433ac1-4798-424d-bf25-8c3e58a323d2"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "73202edd-690a-4ca0-8b3b-b5c0fb661462",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "3e0963b1-3708-4dea-8e11-de6df9bcae3e",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "642ee3c2-1d9f-46b3-9fa0-4c52acfe2369",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "f8bd6a4a-98a3-43da-ad88-389cb4b75d1b",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "0c2c13cd-3a02-4a2d-9073-74e531debd74",
+            "latches": [
+                "3681be4f-0c68-4016-b866-69c173aa26c1"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "6ddddec6-757a-4d96-befd-d3a047e23324",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "ab1c81b3-a8ee-4ebf-97a7-a9a5ed097be0",
+            "latches": [
+                "d107e898-a8cc-44b8-83e3-95f131246ba4"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "1722130e-1f85-43ab-9531-5a92b77f8d76",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "ee3e0caf-544c-4244-89f5-0dcf7756aa24",
+            "properties": [
+                [
+                    "name",
+                    "Persistence Mechanism Created"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0003"
+                        ],
+                        [
+                            "technique",
+                            null
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "The attacker created a persistence mechanism, allowing it to keep its access to the HSE's environment if the workstation was shut down"
+                ],
+                [
+                    "confidence",
+                    "certain"
+                ],
+                [
+                    "execution_start",
+                    {
+                        "time": "2021-03-23T00:00:00.000+10:30",
+                        "zone": "Australia/Adelaide"
+                    }
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "90f2656a-b88f-482f-a4f2-3068e53fe1be",
+                "30": "85d429d9-fb1a-4eec-9501-f48ea66fb8b4",
+                "60": "51750ae4-76b3-49d9-9e05-c661cad461f7",
+                "90": "6732bffd-fb0c-48a8-99c6-3454ce35d8cf",
+                "120": "2216e8fa-b1bb-43fa-b4f9-05ad102311e4",
+                "150": "9aa58440-2d68-48d7-a2d4-9c2104a46e77",
+                "180": "23b3f5f3-ba9c-42ef-921d-62cbd36f7e4f",
+                "210": "40eb0f2e-f042-4ba8-bb64-a0b1c224ab03",
+                "240": "ca388653-71ee-44b3-b824-22e06cf5978c",
+                "270": "a7b7dfab-caac-42f7-8de7-0445f08f5481",
+                "300": "f41c0073-0a43-4ee2-ac72-7b2ecbf84fa1",
+                "330": "999a413f-83bb-47de-b97d-98d35800bdce"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "90f2656a-b88f-482f-a4f2-3068e53fe1be",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "85d429d9-fb1a-4eec-9501-f48ea66fb8b4",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "51750ae4-76b3-49d9-9e05-c661cad461f7",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "6732bffd-fb0c-48a8-99c6-3454ce35d8cf",
+            "latches": [
+                "d4e5d6ca-a393-43c7-a040-c20386f2828b"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "2216e8fa-b1bb-43fa-b4f9-05ad102311e4",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "9aa58440-2d68-48d7-a2d4-9c2104a46e77",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "23b3f5f3-ba9c-42ef-921d-62cbd36f7e4f",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "40eb0f2e-f042-4ba8-bb64-a0b1c224ab03",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "ca388653-71ee-44b3-b824-22e06cf5978c",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "a7b7dfab-caac-42f7-8de7-0445f08f5481",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "f41c0073-0a43-4ee2-ac72-7b2ecbf84fa1",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "999a413f-83bb-47de-b97d-98d35800bdce",
+            "latches": []
+        },
+        {
+            "id": "asset",
+            "instance": "57a544ec-0875-4765-94e0-d9bb77d1b7f0",
+            "properties": [
+                [
+                    "name",
+                    "Highly privileged accounts"
+                ],
+                [
+                    "description",
+                    "The attacker gained access to admin accounts, allowing them to access health records, hospital systems and more."
+                ]
+            ],
+            "anchors": {
+                "0": "e139f2d0-41c5-4372-ba4e-8e112a7b5203",
+                "30": "9c2d0e62-b946-4c0e-a50c-a24e4b08b53d",
+                "60": "ed01d022-5e4f-4fbc-9167-8bcd99997772",
+                "90": "41678e88-b9ba-48af-9928-e29a01c9b30b",
+                "120": "b1aac28b-5bc4-40ed-825b-a3d136eff869",
+                "150": "317e16ca-47a9-423b-9aac-55a9f26d272f",
+                "180": "9f30c28d-585a-4d15-ac79-6932d1e66635",
+                "210": "bd6a5044-b7d2-4388-8b69-e1cac330ba50",
+                "240": "d47c0265-8e8e-4861-ba8d-86eecd56e7ca",
+                "270": "ee906688-35ac-4299-94f6-7a11ad6354d8",
+                "300": "f0dbdfe3-0aa3-431b-b094-60638d85e5f3",
+                "330": "c7df4418-31bc-4d83-a4f3-666558ef534a"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "e139f2d0-41c5-4372-ba4e-8e112a7b5203",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "9c2d0e62-b946-4c0e-a50c-a24e4b08b53d",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "ed01d022-5e4f-4fbc-9167-8bcd99997772",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "41678e88-b9ba-48af-9928-e29a01c9b30b",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "b1aac28b-5bc4-40ed-825b-a3d136eff869",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "317e16ca-47a9-423b-9aac-55a9f26d272f",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "9f30c28d-585a-4d15-ac79-6932d1e66635",
+            "latches": [
+                "200daef8-9570-4196-bff5-b81e06463cdd"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "bd6a5044-b7d2-4388-8b69-e1cac330ba50",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "d47c0265-8e8e-4861-ba8d-86eecd56e7ca",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "ee906688-35ac-4299-94f6-7a11ad6354d8",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "f0dbdfe3-0aa3-431b-b094-60638d85e5f3",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "c7df4418-31bc-4d83-a4f3-666558ef534a",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "642d488c-a0b5-49e4-8861-87f15899ad35",
+            "properties": [
+                [
+                    "name",
+                    "Tools loaded and executed on Patient Zero"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            null
+                        ],
+                        [
+                            "technique",
+                            null
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "The attacker used their access to the workstation to load two software tools onto the machine, Cobalt Strike and Mimikatz. The workstation's antivirus detected the execution of these tools, however it was set to monitor mode so it did not block the malicious software."
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    {
+                        "time": "2021-03-31T00:00:00.000+10:30",
+                        "zone": "Australia/Adelaide"
+                    }
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "a3de5a0f-df82-4c73-9ea7-7481a2c9bef3",
+                "30": "8c7571b1-4356-4bcc-9919-09db3cc91a9a",
+                "60": "b197a665-a6aa-4c10-8a11-99ab02fc4b2c",
+                "90": "8c29a707-de8c-4ae9-bba5-0e360bd380dc",
+                "120": "9abf45a2-9f31-432d-8025-bb579fdc7081",
+                "150": "868ee7f2-5450-449f-8f37-ba7d25843776",
+                "180": "787cf193-c9e5-4dd5-9375-7b1ec1306a3c",
+                "210": "e4bf85a1-d6d5-4a5f-882f-f07e1fa43d1a",
+                "240": "b656d9aa-3502-4d68-9068-995725c456d2",
+                "270": "b77dfadf-e838-48d0-9131-35921a9ed734",
+                "300": "3f942ed1-e625-4eb7-8b9b-e6e4198712bb",
+                "330": "b0d1fee9-7c16-4b3c-a04c-0c3a3c8a05c8"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "a3de5a0f-df82-4c73-9ea7-7481a2c9bef3",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "8c7571b1-4356-4bcc-9919-09db3cc91a9a",
+            "latches": [
+                "afa4f28a-bd8d-437a-9c46-1d2c41dac2c5"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "b197a665-a6aa-4c10-8a11-99ab02fc4b2c",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "8c29a707-de8c-4ae9-bba5-0e360bd380dc",
+            "latches": [
+                "2c50dda7-81c8-4a57-81c9-7a861f78a335"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "9abf45a2-9f31-432d-8025-bb579fdc7081",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "868ee7f2-5450-449f-8f37-ba7d25843776",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "787cf193-c9e5-4dd5-9375-7b1ec1306a3c",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "e4bf85a1-d6d5-4a5f-882f-f07e1fa43d1a",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "b656d9aa-3502-4d68-9068-995725c456d2",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "b77dfadf-e838-48d0-9131-35921a9ed734",
+            "latches": [
+                "67ae6a1d-b71c-4584-94fa-58bffec36bc5"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "3f942ed1-e625-4eb7-8b9b-e6e4198712bb",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "b0d1fee9-7c16-4b3c-a04c-0c3a3c8a05c8",
+            "latches": [
+                "87c4cbe9-e37f-4af3-a828-06e256a6bcf4"
+            ]
+        },
+        {
+            "id": "tool",
+            "instance": "aaa0ed55-c1c1-4cd6-a8e7-d1a8331598ed",
+            "properties": [
+                [
+                    "name",
+                    "Cobalt Strike"
+                ],
+                [
+                    "description",
+                    "Cobalt Strike is used for advanced threat simulation and network reconnaissance."
+                ],
+                [
+                    "tool_types",
+                    [
+                        [
+                            "8df2d82fd1336d0ed6d66a82636e1e50",
+                            "Cybersecurity Testing "
+                        ]
+                    ]
+                ],
+                [
+                    "aliases",
+                    []
+                ],
+                [
+                    "kill_chain_phases",
+                    []
+                ],
+                [
+                    "tool_version",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "78eeff57-ebe4-4abe-bf04-a64298f4ac73",
+                "30": "5ca7eeb7-fa6d-4ef7-9fc1-b6b8e108f141",
+                "60": "153aa076-5142-4df1-bb94-ac76a0aa6993",
+                "90": "39b6742a-02c7-4247-8c93-ef43c3def624",
+                "120": "4f7256a7-4981-4037-b5d1-bb51057e192e",
+                "150": "046f0431-e470-46b5-8108-9c735293775e",
+                "180": "472ea731-0dba-432e-9450-414224dde781",
+                "210": "b4a59392-86a7-4b25-bc34-d9af3519e4cf",
+                "240": "90a06b17-645f-47f7-821e-a91dd7b01325",
+                "270": "83d62036-611a-42f6-b535-e92d1425a9f6",
+                "300": "ac16a622-9362-431c-a81a-953b0ec6eb3e",
+                "330": "a9d5f65a-544d-48e9-9cae-ae3f26910567"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "78eeff57-ebe4-4abe-bf04-a64298f4ac73",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "5ca7eeb7-fa6d-4ef7-9fc1-b6b8e108f141",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "153aa076-5142-4df1-bb94-ac76a0aa6993",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "39b6742a-02c7-4247-8c93-ef43c3def624",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "4f7256a7-4981-4037-b5d1-bb51057e192e",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "046f0431-e470-46b5-8108-9c735293775e",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "472ea731-0dba-432e-9450-414224dde781",
+            "latches": [
+                "9956b997-6b1e-4b70-92ea-33ef83e7ee05"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "b4a59392-86a7-4b25-bc34-d9af3519e4cf",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "90a06b17-645f-47f7-821e-a91dd7b01325",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "83d62036-611a-42f6-b535-e92d1425a9f6",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "ac16a622-9362-431c-a81a-953b0ec6eb3e",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "a9d5f65a-544d-48e9-9cae-ae3f26910567",
+            "latches": []
+        },
+        {
+            "id": "tool",
+            "instance": "2acdc2ff-dc94-4fa8-a1ec-6125dfbfb58b",
+            "properties": [
+                [
+                    "name",
+                    "Mimikatz"
+                ],
+                [
+                    "description",
+                    "Application that allows users to view and save authentication credentials."
+                ],
+                [
+                    "tool_types",
+                    []
+                ],
+                [
+                    "aliases",
+                    []
+                ],
+                [
+                    "kill_chain_phases",
+                    []
+                ],
+                [
+                    "tool_version",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "eec062fb-9224-4516-b3f7-8c8154573e3a",
+                "30": "39db9115-56f5-4c91-9d12-abaca7c68e69",
+                "60": "d3c8601e-b1e5-4fd5-9599-bd65b44fc647",
+                "90": "c8ece4ba-63ec-4cc8-ac94-2501bbe773c4",
+                "120": "ef3c2dd8-05ce-4989-b15d-4da720c700a1",
+                "150": "3de5bfb9-7440-4ab1-9d47-e37617239ca0",
+                "180": "750834a4-aa78-4e0a-b88c-439e1ce40a88",
+                "210": "7e09c70b-65a3-436b-bb06-cfbb47ffbe2e",
+                "240": "a08157ec-7c0d-4333-b2c5-547f9ed0c6f8",
+                "270": "8746695f-5b40-481b-b749-dc6fed843e14",
+                "300": "dd5abec9-4cea-4926-a0ca-6ebb9f090bef",
+                "330": "3b7998b9-123c-418c-8752-930ee2626e1b"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "eec062fb-9224-4516-b3f7-8c8154573e3a",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "39db9115-56f5-4c91-9d12-abaca7c68e69",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "d3c8601e-b1e5-4fd5-9599-bd65b44fc647",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "c8ece4ba-63ec-4cc8-ac94-2501bbe773c4",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "ef3c2dd8-05ce-4989-b15d-4da720c700a1",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "3de5bfb9-7440-4ab1-9d47-e37617239ca0",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "750834a4-aa78-4e0a-b88c-439e1ce40a88",
+            "latches": [
+                "d40e13ec-c932-421d-a167-224a9a3d3676"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "7e09c70b-65a3-436b-bb06-cfbb47ffbe2e",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "a08157ec-7c0d-4333-b2c5-547f9ed0c6f8",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "8746695f-5b40-481b-b749-dc6fed843e14",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "dd5abec9-4cea-4926-a0ca-6ebb9f090bef",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "3b7998b9-123c-418c-8752-930ee2626e1b",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "61f9ea42-a1f8-45db-9301-f02113538402",
+            "properties": [
+                [
+                    "name",
+                    "Conducted Active Delivery"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            null
+                        ],
+                        [
+                            "technique",
+                            null
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "The attacker conducted active delivery, allowing them to access admin accounts and further compromise the HSE systems."
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    {
+                        "time": "2021-05-07T00:00:00.000+09:30",
+                        "zone": "Australia/Adelaide"
+                    }
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "8ffb315b-6cc7-4106-ad03-dcff9bdf6ac6",
+                "30": "16d03b1c-8e71-4293-9076-0823ce8273c3",
+                "60": "1d685f02-20b7-4379-b75b-296ad9d5b59c",
+                "90": "8f129d55-1656-4e84-9ae2-d6918847133a",
+                "120": "448f45cc-c931-4d66-9e30-5248d34ec8b6",
+                "150": "269336d2-18ae-4103-97b5-c7121dc34e2c",
+                "180": "5fcf78d0-3bc4-4195-b7d4-443a30bbdea4",
+                "210": "857e7d45-8219-4c28-9fab-18e56e962ba5",
+                "240": "767bd71c-8110-4552-b4a7-3479b53929f1",
+                "270": "99dd3ac1-09b1-4f48-8818-833a59938667",
+                "300": "57db2ab0-f807-400a-8d06-082f6b0279c3",
+                "330": "cbd5006c-003c-44b0-ba31-5aa4ec7d66b2"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "8ffb315b-6cc7-4106-ad03-dcff9bdf6ac6",
+            "latches": [
+                "55afe125-481b-4088-b01f-b2d60e74af92"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "16d03b1c-8e71-4293-9076-0823ce8273c3",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "1d685f02-20b7-4379-b75b-296ad9d5b59c",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "8f129d55-1656-4e84-9ae2-d6918847133a",
+            "latches": [
+                "eca6ffe6-44b4-41df-8a7d-f20b60882f2b"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "448f45cc-c931-4d66-9e30-5248d34ec8b6",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "269336d2-18ae-4103-97b5-c7121dc34e2c",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "5fcf78d0-3bc4-4195-b7d4-443a30bbdea4",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "857e7d45-8219-4c28-9fab-18e56e962ba5",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "767bd71c-8110-4552-b4a7-3479b53929f1",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "99dd3ac1-09b1-4f48-8818-833a59938667",
+            "latches": [
+                "c9a63b3d-0fb9-4dbf-a5bf-88b53f47726e"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "57db2ab0-f807-400a-8d06-082f6b0279c3",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "cbd5006c-003c-44b0-ba31-5aa4ec7d66b2",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "77d64623-d78b-4a2a-9dd6-5486ebbba133",
+            "properties": [
+                [
+                    "name",
+                    "Conti Ransomware Activation"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            null
+                        ],
+                        [
+                            "technique",
+                            null
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    null
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "d185e22c-0842-42f5-835b-6c765143fdc4",
+                "30": "ae782e09-e11f-468e-ac01-0f0deaec6049",
+                "60": "b933d764-c3cf-4be2-bd30-c58d9c4bf92f",
+                "90": "484cf113-8662-49d0-b0fc-4d76332584b2",
+                "120": "f5ab75fa-84f9-441d-ac5a-0c03755c3dc2",
+                "150": "b0932ac2-dc60-4a07-86a6-17edf1e06b60",
+                "180": "55ef8a0c-8a18-482c-b348-16fab304bb50",
+                "210": "e5db2144-4881-416d-8232-ae7dbcc2f973",
+                "240": "0ac017eb-28a8-4491-a547-9296b603c89d",
+                "270": "8bd27dd3-e8e5-42ab-b754-cda710f61231",
+                "300": "1b868590-df50-4087-a11a-25edd342032a",
+                "330": "65760ef3-585f-4fe1-bf75-77a40831f465"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "d185e22c-0842-42f5-835b-6c765143fdc4",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "ae782e09-e11f-468e-ac01-0f0deaec6049",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "b933d764-c3cf-4be2-bd30-c58d9c4bf92f",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "484cf113-8662-49d0-b0fc-4d76332584b2",
+            "latches": [
+                "a2e8a7ed-de96-4346-8271-e341776dcfdf"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "f5ab75fa-84f9-441d-ac5a-0c03755c3dc2",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "b0932ac2-dc60-4a07-86a6-17edf1e06b60",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "55ef8a0c-8a18-482c-b348-16fab304bb50",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "e5db2144-4881-416d-8232-ae7dbcc2f973",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "0ac017eb-28a8-4491-a547-9296b603c89d",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "8bd27dd3-e8e5-42ab-b754-cda710f61231",
+            "latches": [
+                "9f8cfded-4553-4fd6-9cf1-dbb42b98074d",
+                "bc558a3a-c40b-4bc7-9792-28c7715b49f9"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "1b868590-df50-4087-a11a-25edd342032a",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "65760ef3-585f-4fe1-bf75-77a40831f465",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "1ba82511-d54d-4589-936e-e1f0327592c1",
+            "properties": [
+                [
+                    "name",
+                    "Data Incryption"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            null
+                        ],
+                        [
+                            "technique",
+                            null
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    null
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "1842edf7-b26d-436a-bcdb-777c35ff1fc9",
+                "30": "f4c4b991-24e4-4cee-b42a-8e88200d2251",
+                "60": "67ea2a94-6a20-4ac6-a35a-2478b3e966d0",
+                "90": "710ead8a-3dc4-4078-a8cf-d6323c0acaa9",
+                "120": "272d5879-5802-4d9b-8642-154dfaec3e96",
+                "150": "dfa92d8e-d369-44ca-a094-3f43427300a3",
+                "180": "a2979962-b55f-42ab-b389-c3e229763a8f",
+                "210": "a535ba77-8034-448a-90f9-79bf3626f933",
+                "240": "72afc600-d8c8-4842-a872-5a5a13c7faa6",
+                "270": "594ab0b1-d540-414f-96da-4c4ac2d548ae",
+                "300": "f4db1cdd-d7f0-41f6-8c74-8d6ef7e514b2",
+                "330": "468de8a7-0c96-4a19-a1fd-327da8bb5b91"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "1842edf7-b26d-436a-bcdb-777c35ff1fc9",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "f4c4b991-24e4-4cee-b42a-8e88200d2251",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "67ea2a94-6a20-4ac6-a35a-2478b3e966d0",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "710ead8a-3dc4-4078-a8cf-d6323c0acaa9",
+            "latches": [
+                "0dd9e9b0-a0e4-4b83-8dfe-ef04327f4438"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "272d5879-5802-4d9b-8642-154dfaec3e96",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "dfa92d8e-d369-44ca-a094-3f43427300a3",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "a2979962-b55f-42ab-b389-c3e229763a8f",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "a535ba77-8034-448a-90f9-79bf3626f933",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "72afc600-d8c8-4842-a872-5a5a13c7faa6",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "594ab0b1-d540-414f-96da-4c4ac2d548ae",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "f4db1cdd-d7f0-41f6-8c74-8d6ef7e514b2",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "468de8a7-0c96-4a19-a1fd-327da8bb5b91",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "22a3c73c-1d64-4549-92c2-f2f7b3fc323c",
+            "properties": [
+                [
+                    "name",
+                    "Systems Shutdown"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            null
+                        ],
+                        [
+                            "technique",
+                            null
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    null
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "1cbde54b-bfbe-444f-bc33-5483b0c39d22",
+                "30": "a21c3877-ede7-4abf-ab5d-68f4873acf8a",
+                "60": "bf8acdb7-b712-4b3c-94c8-2edd1275d214",
+                "90": "18e8af46-9dc2-4707-98b5-58b377ace075",
+                "120": "9eabbc1c-14b5-4253-bf77-64895ed20d75",
+                "150": "26199d2f-8e77-4857-b701-6a8d37767c7f",
+                "180": "6779e186-934d-4f56-86ba-ed897aee9cf9",
+                "210": "a9f4a706-073a-49b8-8989-a0c13242f768",
+                "240": "e0870748-6124-46b8-81d6-dac16934033c",
+                "270": "96fc903b-4ada-44f3-a20d-b56d663d63bc",
+                "300": "b3fa1d2d-7e77-4b47-b46f-7efd8fb66fd1",
+                "330": "22df30c6-95f0-4d4e-bdda-87496464feb7"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "1cbde54b-bfbe-444f-bc33-5483b0c39d22",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "a21c3877-ede7-4abf-ab5d-68f4873acf8a",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "bf8acdb7-b712-4b3c-94c8-2edd1275d214",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "18e8af46-9dc2-4707-98b5-58b377ace075",
+            "latches": [
+                "42473780-9063-4723-ac8d-fe738976b000"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "9eabbc1c-14b5-4253-bf77-64895ed20d75",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "26199d2f-8e77-4857-b701-6a8d37767c7f",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "6779e186-934d-4f56-86ba-ed897aee9cf9",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "a9f4a706-073a-49b8-8989-a0c13242f768",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "e0870748-6124-46b8-81d6-dac16934033c",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "96fc903b-4ada-44f3-a20d-b56d663d63bc",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "b3fa1d2d-7e77-4b47-b46f-7efd8fb66fd1",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "22df30c6-95f0-4d4e-bdda-87496464feb7",
+            "latches": []
+        }
+    ],
+    "layout": {
+        "f916f356-5989-49c4-80e1-0b5b0e809a9e": [
+            -100,
+            -270
+        ],
+        "1f1ec52b-0b8c-46cb-a298-675a6bbe4f42": [
+            -100,
+            145
+        ],
+        "ee3e0caf-544c-4244-89f5-0dcf7756aa24": [
+            -355,
+            610
+        ],
+        "57a544ec-0875-4765-94e0-d9bb77d1b7f0": [
+            670,
+            1055
+        ],
+        "642d488c-a0b5-49e4-8861-87f15899ad35": [
+            155,
+            605
+        ],
+        "aaa0ed55-c1c1-4cd6-a8e7-d1a8331598ed": [
+            660,
+            490
+        ],
+        "2acdc2ff-dc94-4fa8-a1ec-6125dfbfb58b": [
+            665,
+            730
+        ],
+        "61f9ea42-a1f8-45db-9301-f02113538402": [
+            155,
+            1055
+        ],
+        "77d64623-d78b-4a2a-9dd6-5486ebbba133": [
+            155,
+            1290
+        ],
+        "1ba82511-d54d-4589-936e-e1f0327592c1": [
+            365,
+            1475
+        ],
+        "22a3c73c-1d64-4549-92c2-f2f7b3fc323c": [
+            -30,
+            1480
+        ]
+    },
+    "camera": {
+        "x": -48,
+        "y": 712,
+        "k": 0.31665033278391597
+    }
+}

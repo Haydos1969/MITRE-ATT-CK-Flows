@@ -1,0 +1,4 @@
+https://en.wikipedia.org/wiki/Health_Service_Executive_ransomware_attack
+https://cyberireland.ie/wp-content/uploads/2022/02/conti-cyber-attack-on-the-hse-full-report.pdf
+https://www.imperva.com/learn/application-security/cobalt-strike/
+https://www.varonis.com/blog/what-is-mimikatz
