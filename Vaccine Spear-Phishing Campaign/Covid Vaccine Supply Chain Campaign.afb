@@ -1,0 +1,297 @@
+{
+    "schema": "attack_flow_v2",
+    "theme": "dark_theme",
+    "objects": [
+        {
+            "id": "flow",
+            "instance": "7978e40a-24c0-453f-9af7-976b795e2c5c",
+            "properties": [
+                [
+                    "name",
+                    "Covid Vaccine Supply Chain Campaign"
+                ],
+                [
+                    "description",
+                    null
+                ],
+                [
+                    "author",
+                    [
+                        [
+                            "name",
+                            "Hayden Abrahams"
+                        ],
+                        [
+                            "identity_class",
+                            null
+                        ],
+                        [
+                            "contact_information",
+                            null
+                        ]
+                    ]
+                ],
+                [
+                    "scope",
+                    "incident"
+                ],
+                [
+                    "external_references",
+                    []
+                ],
+                [
+                    "created",
+                    {
+                        "time": "2025-09-07T17:48:02.496+09:30",
+                        "zone": "Australia/Adelaide"
+                    }
+                ]
+            ],
+            "objects": [
+                "5f14ad39-18ac-4b23-bdca-eabcebe64a0b",
+                "cc698442-2390-4ecb-b51b-b5438bf450de"
+            ]
+        },
+        {
+            "id": "action",
+            "instance": "5f14ad39-18ac-4b23-bdca-eabcebe64a0b",
+            "properties": [
+                [
+                    "name",
+                    "Spear-phishing emails sent to executives"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            null
+                        ],
+                        [
+                            "technique",
+                            null
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "Spear-phishing emails were sent to select executives in various corporations which supported the vaccine cold chain, inducing the European Commission’s Directorate-General for Taxation and Customs Union."
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "538647ae-a6fc-4004-8cae-86833d19165b",
+                "30": "9bb35964-a3ce-4d6f-b7d4-a14a1b7c0b6e",
+                "60": "25f80fd2-76a0-488f-8ed6-f9a7b9417922",
+                "90": "e5487b4e-9159-4465-8346-7e50fc561414",
+                "120": "1792fff6-48f1-4ba8-9354-8de4ff039809",
+                "150": "c11e4075-7ae6-49e3-b96a-b64289381549",
+                "180": "b2be1e63-8f60-4982-8146-c04cf760e90d",
+                "210": "43a052a0-c76d-4ab4-958e-be075b0b1883",
+                "240": "6e31fbda-a59b-4988-b986-52eb50c8423f",
+                "270": "15dc2f84-196b-44a5-838d-a05ef4b7aeb3",
+                "300": "417dcc7b-1c3e-44af-8ea6-739044925434",
+                "330": "67bd029a-65f5-49ea-b1e5-1594522abbd4"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "538647ae-a6fc-4004-8cae-86833d19165b",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "9bb35964-a3ce-4d6f-b7d4-a14a1b7c0b6e",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "25f80fd2-76a0-488f-8ed6-f9a7b9417922",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "e5487b4e-9159-4465-8346-7e50fc561414",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "1792fff6-48f1-4ba8-9354-8de4ff039809",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "c11e4075-7ae6-49e3-b96a-b64289381549",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "b2be1e63-8f60-4982-8146-c04cf760e90d",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "43a052a0-c76d-4ab4-958e-be075b0b1883",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "6e31fbda-a59b-4988-b986-52eb50c8423f",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "15dc2f84-196b-44a5-838d-a05ef4b7aeb3",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "417dcc7b-1c3e-44af-8ea6-739044925434",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "67bd029a-65f5-49ea-b1e5-1594522abbd4",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "cc698442-2390-4ecb-b51b-b5438bf450de",
+            "properties": [
+                [
+                    "name",
+                    null
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            null
+                        ],
+                        [
+                            "technique",
+                            null
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    null
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "cd29ccc2-830d-47e2-95e6-927a399b0804",
+                "30": "1910c1b4-158a-42fa-ab04-c0ad5eff5287",
+                "60": "64339e8b-1feb-4726-8b61-2c7660144d6c",
+                "90": "36b28697-a1a2-47d8-88a9-da8e09a65b55",
+                "120": "aa8d7b2e-f9a6-422a-a95d-fd7509296473",
+                "150": "82dcbb60-4206-474c-b7eb-c4427c6cc041",
+                "180": "a0f5baab-4aac-486e-a7a5-664b089eb572",
+                "210": "014b19e7-3ed8-4ff3-8762-434ef73dd4d2",
+                "240": "b835649f-1537-4486-a65a-d4d953d316f6",
+                "270": "e371b641-a2a0-4b0e-a006-ac1463d6c159",
+                "300": "738df463-e60c-4b32-a65a-df3c8b3dba98",
+                "330": "237e019f-8ffc-44e1-9806-d053513ae23f"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "cd29ccc2-830d-47e2-95e6-927a399b0804",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "1910c1b4-158a-42fa-ab04-c0ad5eff5287",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "64339e8b-1feb-4726-8b61-2c7660144d6c",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "36b28697-a1a2-47d8-88a9-da8e09a65b55",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "aa8d7b2e-f9a6-422a-a95d-fd7509296473",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "82dcbb60-4206-474c-b7eb-c4427c6cc041",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "a0f5baab-4aac-486e-a7a5-664b089eb572",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "014b19e7-3ed8-4ff3-8762-434ef73dd4d2",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "b835649f-1537-4486-a65a-d4d953d316f6",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "e371b641-a2a0-4b0e-a006-ac1463d6c159",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "738df463-e60c-4b32-a65a-df3c8b3dba98",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "237e019f-8ffc-44e1-9806-d053513ae23f",
+            "latches": []
+        }
+    ],
+    "layout": {
+        "5f14ad39-18ac-4b23-bdca-eabcebe64a0b": [
+            55,
+            -240
+        ],
+        "cc698442-2390-4ecb-b51b-b5438bf450de": [
+            40,
+            5
+        ]
+    },
+    "camera": {
+        "x": 52,
+        "y": 42,
+        "k": 0.7846095111745491
+    }
+}

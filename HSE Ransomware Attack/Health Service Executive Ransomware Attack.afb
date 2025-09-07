@@ -58,6 +58,8 @@
                 "1fde965d-e00b-4c80-a9f5-560619fa93e0",
                 "01c436df-a8e2-47b1-b402-a7386b6b6f8a",
                 "152e82b0-0b40-41e0-927c-f2991dbd9636",
+                "60e56beb-7eb7-4c9d-8928-8d8f3dd76826",
+                "6dca413a-d37c-4899-9afa-7b8792585d1c",
                 "f916f356-5989-49c4-80e1-0b5b0e809a9e",
                 "1f1ec52b-0b8c-46cb-a298-675a6bbe4f42",
                 "ee3e0caf-544c-4244-89f5-0dcf7756aa24",
@@ -68,7 +70,8 @@
                 "61f9ea42-a1f8-45db-9301-f02113538402",
                 "77d64623-d78b-4a2a-9dd6-5486ebbba133",
                 "1ba82511-d54d-4589-936e-e1f0327592c1",
-                "22a3c73c-1d64-4549-92c2-f2f7b3fc323c"
+                "22a3c73c-1d64-4549-92c2-f2f7b3fc323c",
+                "fd68027d-e5a3-4827-a44c-ee62d73e2cfd"
             ]
         },
         {
@@ -280,6 +283,48 @@
         {
             "id": "generic_handle",
             "instance": "90b5a2ff-caf5-4d3e-b8ac-cfc59be0c3bf"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "60e56beb-7eb7-4c9d-8928-8d8f3dd76826",
+            "source": "6f2d2483-1f5b-4d17-b205-09942de705b4",
+            "target": "0163f497-7db7-422c-8deb-98d49cd3223f",
+            "handles": [
+                "badd3ac7-5555-4f4e-8751-8375ce6267aa"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "6f2d2483-1f5b-4d17-b205-09942de705b4"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "0163f497-7db7-422c-8deb-98d49cd3223f"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "badd3ac7-5555-4f4e-8751-8375ce6267aa"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "6dca413a-d37c-4899-9afa-7b8792585d1c",
+            "source": "fbd1495f-3ae7-421e-b19d-1cfd9ec78203",
+            "target": "f81b7bc2-e95a-4f49-a27d-62b874ffdf69",
+            "handles": [
+                "de2f08fa-8a96-4e75-9b76-40f7e8fd2d1e"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "fbd1495f-3ae7-421e-b19d-1cfd9ec78203"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "f81b7bc2-e95a-4f49-a27d-62b874ffdf69"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "de2f08fa-8a96-4e75-9b76-40f7e8fd2d1e"
         },
         {
             "id": "action",
@@ -1215,7 +1260,7 @@
                 ],
                 [
                     "description",
-                    null
+                    "After over a month of having access to various aspects of the HSE system, the attacker finally activated the Conti Ransomware"
                 ],
                 [
                     "confidence",
@@ -1223,7 +1268,10 @@
                 ],
                 [
                     "execution_start",
-                    null
+                    {
+                        "time": "2021-05-08T00:00:00.000+09:30",
+                        "zone": "Australia/Adelaide"
+                    }
                 ],
                 [
                     "execution_end",
@@ -1333,7 +1381,7 @@
                 ],
                 [
                     "description",
-                    null
+                    "The Conti Ransomware stole and encrypted confidential medical records and corporate documents, preventing the hospitals from accessing these"
                 ],
                 [
                     "confidence",
@@ -1413,7 +1461,9 @@
         {
             "id": "vertical_anchor",
             "instance": "594ab0b1-d540-414f-96da-4c4ac2d548ae",
-            "latches": []
+            "latches": [
+                "fbd1495f-3ae7-421e-b19d-1cfd9ec78203"
+            ]
         },
         {
             "id": "vertical_anchor",
@@ -1448,7 +1498,7 @@
                 ],
                 [
                     "description",
-                    null
+                    "The attacker preventing hospital staff from accessing electronic records, forcing them to rely on existing paper records. Other systems such as the COVID-19 testing referral system were brought down, alongside cancer and stroke services. Several hospitals across the country were affected."
                 ],
                 [
                     "confidence",
@@ -1528,7 +1578,9 @@
         {
             "id": "vertical_anchor",
             "instance": "96fc903b-4ada-44f3-a20d-b56d663d63bc",
-            "latches": []
+            "latches": [
+                "6f2d2483-1f5b-4d17-b205-09942de705b4"
+            ]
         },
         {
             "id": "vertical_anchor",
@@ -1538,6 +1590,122 @@
         {
             "id": "horizontal_anchor",
             "instance": "22df30c6-95f0-4d4e-bdda-87496464feb7",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "fd68027d-e5a3-4827-a44c-ee62d73e2cfd",
+            "properties": [
+                [
+                    "name",
+                    "Ransom Demand"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            null
+                        ],
+                        [
+                            "technique",
+                            null
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "The attacker made a ransom demand of €16.5 million, stating they would decrypt data and not publish confidential information. The HSE did not accept any ransom deal, despite the attacker slowly releasing the medical history of 520 patients."
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "e1c24b09-ef01-4258-9ed9-0c6988148df3",
+                "30": "bd06d5f4-db18-4ade-b8ae-9a50e92a62ee",
+                "60": "b2383814-aca5-4b1a-8055-8a0c86fc605a",
+                "90": "ac7a0813-9776-40e1-96c2-e934144e9602",
+                "120": "6dde5e8b-4091-49aa-b6f8-bbcb43133dfa",
+                "150": "a942a9c7-8b7b-44ba-8e0d-fce89a420014",
+                "180": "0b549b5b-8b09-4c5a-8099-80941b89a886",
+                "210": "7c2cf268-c2d4-4ceb-8f63-b6f7f600c867",
+                "240": "f979cd2f-be4b-4e63-9e22-cb4a08739ee7",
+                "270": "21ec062f-0214-4aa6-b2c4-9d1e05ba560d",
+                "300": "de9dea15-02b5-4181-96db-66a8ffd762a7",
+                "330": "d0fcffa8-0a8e-405b-8f8e-13f6c0ba57a3"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "e1c24b09-ef01-4258-9ed9-0c6988148df3",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "bd06d5f4-db18-4ade-b8ae-9a50e92a62ee",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "b2383814-aca5-4b1a-8055-8a0c86fc605a",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "ac7a0813-9776-40e1-96c2-e934144e9602",
+            "latches": [
+                "0163f497-7db7-422c-8deb-98d49cd3223f",
+                "f81b7bc2-e95a-4f49-a27d-62b874ffdf69"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "6dde5e8b-4091-49aa-b6f8-bbcb43133dfa",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "a942a9c7-8b7b-44ba-8e0d-fce89a420014",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "0b549b5b-8b09-4c5a-8099-80941b89a886",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "7c2cf268-c2d4-4ceb-8f63-b6f7f600c867",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "f979cd2f-be4b-4e63-9e22-cb4a08739ee7",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "21ec062f-0214-4aa6-b2c4-9d1e05ba560d",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "de9dea15-02b5-4181-96db-66a8ffd762a7",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "d0fcffa8-0a8e-405b-8f8e-13f6c0ba57a3",
             "latches": []
         }
     ],
@@ -1576,20 +1744,24 @@
         ],
         "77d64623-d78b-4a2a-9dd6-5486ebbba133": [
             155,
-            1290
+            1360
         ],
         "1ba82511-d54d-4589-936e-e1f0327592c1": [
-            365,
-            1475
+            370,
+            1725
         ],
         "22a3c73c-1d64-4549-92c2-f2f7b3fc323c": [
-            -30,
-            1480
+            -100,
+            1725
+        ],
+        "fd68027d-e5a3-4827-a44c-ee62d73e2cfd": [
+            125,
+            2150
         ]
     },
     "camera": {
-        "x": -48,
-        "y": 712,
-        "k": 0.31665033278391597
+        "x": -93,
+        "y": 128,
+        "k": 0.38779838474086487
     }
 }
