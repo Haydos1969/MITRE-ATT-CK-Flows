@@ -33,7 +33,7 @@
                 ],
                 [
                     "scope",
-                    "incident"
+                    "campaign"
                 ],
                 [
                     "external_references",
@@ -55,6 +55,11 @@
                 "dddbdd69-bf9d-478f-87dd-28e9b9c427a4",
                 "e7692ae4-b38e-44d5-8a90-0db6911914af",
                 "822dc982-6962-4423-9577-78ffd9fcdb61",
+                "ce5d27e0-aeb0-4961-a791-7d70afc2f39a",
+                "d25467ec-6b30-491c-9fbd-72121f8d4b48",
+                "5227d05b-a053-4310-9732-f6d9fb44891b",
+                "5fed49a3-ffd9-4f11-8b65-d727557ff8a7",
+                "5416e8fd-c3e6-420b-984c-4bc974c2d6a7",
                 "5f14ad39-18ac-4b23-bdca-eabcebe64a0b",
                 "cc698442-2390-4ecb-b51b-b5438bf450de",
                 "2da1a1b3-3e96-4c99-ad16-3d515af72436",
@@ -62,7 +67,9 @@
                 "3107a47c-d935-4862-bd31-aea8abe8b1e8",
                 "98ca851d-68a6-44d0-ab00-8fa4533f3a87",
                 "59535bd4-78ba-4acc-a3bc-c80d04b4847b",
-                "5bda62ff-7c65-452f-8829-7436c55ba07f"
+                "5bda62ff-7c65-452f-8829-7436c55ba07f",
+                "266dd9ad-dac9-4300-afa3-895d7f0911d1",
+                "ace1d298-c1a9-4e35-8e1c-efaaf707645b"
             ]
         },
         {
@@ -213,6 +220,111 @@
             "instance": "7941a1ac-6e2e-498f-827a-682f4c82a0ba"
         },
         {
+            "id": "dynamic_line",
+            "instance": "ce5d27e0-aeb0-4961-a791-7d70afc2f39a",
+            "source": "ba5c4e13-cae4-47dd-b58c-610c0a7ecf37",
+            "target": "482798bf-244c-45fd-be84-5d6ca0271d75",
+            "handles": [
+                "e84b1356-04f2-4c41-994f-2f1d95d6294c"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "ba5c4e13-cae4-47dd-b58c-610c0a7ecf37"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "482798bf-244c-45fd-be84-5d6ca0271d75"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "e84b1356-04f2-4c41-994f-2f1d95d6294c"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "d25467ec-6b30-491c-9fbd-72121f8d4b48",
+            "source": "d59fd07e-721b-4bec-81ac-b80c13f2f5fc",
+            "target": "5c2e1138-c3c0-4f98-85a6-b3dae188be4d",
+            "handles": [
+                "e9de8549-b0d4-47f5-9c5d-da330aaba260"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "d59fd07e-721b-4bec-81ac-b80c13f2f5fc"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "5c2e1138-c3c0-4f98-85a6-b3dae188be4d"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "e9de8549-b0d4-47f5-9c5d-da330aaba260"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "5227d05b-a053-4310-9732-f6d9fb44891b",
+            "source": "fa694fbb-251e-48f9-91e9-106a4470c2ef",
+            "target": "0b5bec22-14b1-4ae9-ae2a-09fd7fdfdcc9",
+            "handles": [
+                "b38f36d5-98b1-4e7b-9f30-cf631df97a42"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "fa694fbb-251e-48f9-91e9-106a4470c2ef"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "0b5bec22-14b1-4ae9-ae2a-09fd7fdfdcc9"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "b38f36d5-98b1-4e7b-9f30-cf631df97a42"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "5fed49a3-ffd9-4f11-8b65-d727557ff8a7",
+            "source": "37229d98-1fa3-4584-9a40-829a70a5f316",
+            "target": "eadf78ca-16d5-49e3-ab92-06c7a32054b5",
+            "handles": [
+                "d385c2ef-83c1-462f-a9c3-fe8f43614e06"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "37229d98-1fa3-4584-9a40-829a70a5f316"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "eadf78ca-16d5-49e3-ab92-06c7a32054b5"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "d385c2ef-83c1-462f-a9c3-fe8f43614e06"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "5416e8fd-c3e6-420b-984c-4bc974c2d6a7",
+            "source": "c303c5d6-fec4-401d-aefa-aa118818b2dd",
+            "target": "f58b1617-c406-46f4-afa0-21d3cad9971d",
+            "handles": [
+                "0d90f6f9-ddcf-4248-b653-e63b39c8b675"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "c303c5d6-fec4-401d-aefa-aa118818b2dd"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "f58b1617-c406-46f4-afa0-21d3cad9971d"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "0d90f6f9-ddcf-4248-b653-e63b39c8b675"
+        },
+        {
             "id": "action",
             "instance": "5f14ad39-18ac-4b23-bdca-eabcebe64a0b",
             "properties": [
@@ -235,7 +347,7 @@
                 ],
                 [
                     "description",
-                    "Spear-phishing emails were sent to select executives in various corporations which supported the vaccine cold chain, inducing the European Commission’s Directorate-General for Taxation and Customs Union. The attackers impersonated a business executive from Haier Biomedical, a Chinese company that was the worlds only complete cold chain provider."
+                    "Spear-phishing emails were sent to select executives in various corporations which supported the vaccine cold chain, inducing the European Commission’s Directorate-General for Taxation and Customs Union. The attackers impersonated a business executive from Haier Biomedical, a Chinese company that was the worlds only complete cold chain provider. [2]"
                 ],
                 [
                     "confidence",
@@ -243,11 +355,17 @@
                 ],
                 [
                     "execution_start",
-                    null
+                    {
+                        "time": "2020-09-07T00:00:00.000+09:30",
+                        "zone": "Australia/Adelaide"
+                    }
                 ],
                 [
                     "execution_end",
-                    null
+                    {
+                        "time": "2020-09-09T00:00:00.000+09:30",
+                        "zone": "Australia/Adelaide"
+                    }
                 ]
             ],
             "anchors": {
@@ -298,7 +416,9 @@
         {
             "id": "horizontal_anchor",
             "instance": "b2be1e63-8f60-4982-8146-c04cf760e90d",
-            "latches": []
+            "latches": [
+                "5c2e1138-c3c0-4f98-85a6-b3dae188be4d"
+            ]
         },
         {
             "id": "horizontal_anchor",
@@ -352,7 +472,7 @@
                 ],
                 [
                     "description",
-                    "Each phishing email sent is specifically tailored to each target. The attackers would use a great amount of research from LinkedIn, social media and company websites to make the phishing emails harder to spot"
+                    "Each phishing email sent is specifically tailored to each target. The attackers would use a great amount of research from LinkedIn, social media and company websites to make the phishing emails harder to spot. [4]"
                 ],
                 [
                     "confidence",
@@ -401,7 +521,8 @@
             "id": "vertical_anchor",
             "instance": "36b28697-a1a2-47d8-88a9-da8e09a65b55",
             "latches": [
-                "6c6154cd-48ab-4725-af6b-64c0c54bae83"
+                "6c6154cd-48ab-4725-af6b-64c0c54bae83",
+                "482798bf-244c-45fd-be84-5d6ca0271d75"
             ]
         },
         {
@@ -459,7 +580,7 @@
                     [
                         [
                             "tactic",
-                            null
+                            "TA0011"
                         ],
                         [
                             "technique",
@@ -469,7 +590,7 @@
                 ],
                 [
                     "description",
-                    "The phishing emails had malicious HTML files attached which would prompt the precipitants for their credentials to view the file. Using local HTML files meant that the phishing websites could not be located and taken down by by law enforcement."
+                    "The phishing emails had malicious HTML files attached which would prompt the precipitants for their credentials to view the file. Using local HTML files meant that the phishing websites could not be located and taken down by by law enforcement. [1]"
                 ],
                 [
                     "confidence",
@@ -680,7 +801,7 @@
                 ],
                 [
                     "description",
-                    "Using the stolen high level credentials, the attackers can gain unadvertised access. By moving stealthily through networks they can remain undetected by security teams and continue further cyber espionage."
+                    "Using the stolen high level credentials, the attackers can gain unadvertised access. By moving stealthily through networks they can remain undetected by security teams and continue further cyber espionage. [1]"
                 ],
                 [
                     "confidence",
@@ -853,7 +974,9 @@
         {
             "id": "vertical_anchor",
             "instance": "f7f6a659-6913-4e38-88f5-98150cec29a0",
-            "latches": []
+            "latches": [
+                "fa694fbb-251e-48f9-91e9-106a4470c2ef"
+            ]
         },
         {
             "id": "vertical_anchor",
@@ -943,7 +1066,9 @@
         {
             "id": "vertical_anchor",
             "instance": "bac927dd-6d7b-4510-b112-3fdfd2d17657",
-            "latches": []
+            "latches": [
+                "37229d98-1fa3-4584-9a40-829a70a5f316"
+            ]
         },
         {
             "id": "vertical_anchor",
@@ -1026,7 +1151,10 @@
         {
             "id": "vertical_anchor",
             "instance": "eee0f997-7efd-416d-bc42-df04cbdad213",
-            "latches": []
+            "latches": [
+                "0b5bec22-14b1-4ae9-ae2a-09fd7fdfdcc9",
+                "eadf78ca-16d5-49e3-ab92-06c7a32054b5"
+            ]
         },
         {
             "id": "vertical_anchor",
@@ -1067,6 +1195,194 @@
             "id": "horizontal_anchor",
             "instance": "9bfdf778-c190-495e-af37-562d8ec172dd",
             "latches": []
+        },
+        {
+            "id": "email_address",
+            "instance": "266dd9ad-dac9-4300-afa3-895d7f0911d1",
+            "properties": [
+                [
+                    "value",
+                    "xxx@haierbiomedical.com"
+                ],
+                [
+                    "display_name",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "9646030c-ac8d-4ba0-a35f-8971d20c28d5",
+                "30": "20aa1a34-8658-433c-83d3-b3abbac76056",
+                "60": "8f1efe00-294e-4410-862d-dade2075fad7",
+                "90": "392b7c51-6625-42c0-82eb-29beb479cd37",
+                "120": "12022282-5162-4f7e-823d-8b5f0f9040b5",
+                "150": "8380d0fc-1508-4db6-bab0-0ed5abd9da3a",
+                "180": "4f52e58b-fbe5-4c03-9fbe-943efed477c2",
+                "210": "3a85b21c-b3e2-4a76-8881-f767f654058d",
+                "240": "b7491f01-1287-4fff-9584-a89d1e609f21",
+                "270": "33e8ea53-2dcb-4ac3-a2c2-323c95ec6b6d",
+                "300": "164ab64c-10c8-4a12-9269-7f1e13bcac6a",
+                "330": "d28c569f-2418-4094-b074-4dae58cc4ea1"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "9646030c-ac8d-4ba0-a35f-8971d20c28d5",
+            "latches": [
+                "d59fd07e-721b-4bec-81ac-b80c13f2f5fc"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "20aa1a34-8658-433c-83d3-b3abbac76056",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "8f1efe00-294e-4410-862d-dade2075fad7",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "392b7c51-6625-42c0-82eb-29beb479cd37",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "12022282-5162-4f7e-823d-8b5f0f9040b5",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "8380d0fc-1508-4db6-bab0-0ed5abd9da3a",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "4f52e58b-fbe5-4c03-9fbe-943efed477c2",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "3a85b21c-b3e2-4a76-8881-f767f654058d",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "b7491f01-1287-4fff-9584-a89d1e609f21",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "33e8ea53-2dcb-4ac3-a2c2-323c95ec6b6d",
+            "latches": [
+                "ba5c4e13-cae4-47dd-b58c-610c0a7ecf37"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "164ab64c-10c8-4a12-9269-7f1e13bcac6a",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "d28c569f-2418-4094-b074-4dae58cc4ea1",
+            "latches": []
+        },
+        {
+            "id": "note",
+            "instance": "ace1d298-c1a9-4e35-8e1c-efaaf707645b",
+            "properties": [
+                [
+                    "abstract",
+                    "References"
+                ],
+                [
+                    "content",
+                    "[1]\nhttps://www.ibm.com/think/x-force/ibm-uncovers-global-phishing-covid-19-vaccine-cold-chain\n[2]\nhttps://www.ibm.com/think/x-force/covid-19-vaccine-global-cold-chain-security\n[3]\nhttps://www.hipaajournal.com/covid-19-vaccine-cold-chain-organizations-targeted-in-global-phishing-campaign/\n[4]\nhttps://www.cranfield.ac.uk/alumni/communications/alumni-news/2020/1217-cyber-attacks-and-precision-targeting-of-the-vaccine-supply-chain"
+                ],
+                [
+                    "authors",
+                    []
+                ]
+            ],
+            "anchors": {
+                "0": "5b9d534a-ec6c-498c-890c-0c0ace204f56",
+                "30": "3c68fb66-4394-4e9a-b4ed-999073bfe66e",
+                "60": "de914dcb-3906-4dd0-9d83-9603d0c51f66",
+                "90": "7f74c746-8f3e-4dbb-b10c-9bdd6e3066ba",
+                "120": "8d388f21-5152-49d4-befb-6129694d3208",
+                "150": "b93b75a9-176e-48d5-a5f3-76398ab01475",
+                "180": "9eb2e442-352b-4a93-a5e2-d6ce4620e842",
+                "210": "67498ff1-9536-475c-a0e8-0d93ec23a534",
+                "240": "6fdaddf9-2d53-428a-8b19-8d245ae4246c",
+                "270": "0378c136-8316-4a25-926f-82f248c9e48d",
+                "300": "a854ed65-a246-412f-b2d9-f5ea2f3911ee",
+                "330": "1fed2ccd-f04c-4b41-867a-5a8e0df5be7b"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "5b9d534a-ec6c-498c-890c-0c0ace204f56",
+            "latches": [
+                "c303c5d6-fec4-401d-aefa-aa118818b2dd"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "3c68fb66-4394-4e9a-b4ed-999073bfe66e",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "de914dcb-3906-4dd0-9d83-9603d0c51f66",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "7f74c746-8f3e-4dbb-b10c-9bdd6e3066ba",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "8d388f21-5152-49d4-befb-6129694d3208",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "b93b75a9-176e-48d5-a5f3-76398ab01475",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "9eb2e442-352b-4a93-a5e2-d6ce4620e842",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "67498ff1-9536-475c-a0e8-0d93ec23a534",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "6fdaddf9-2d53-428a-8b19-8d245ae4246c",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "0378c136-8316-4a25-926f-82f248c9e48d",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "a854ed65-a246-412f-b2d9-f5ea2f3911ee",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "1fed2ccd-f04c-4b41-867a-5a8e0df5be7b",
+            "latches": [
+                "f58b1617-c406-46f4-afa0-21d3cad9971d"
+            ]
         }
     ],
     "layout": {
@@ -1079,33 +1395,41 @@
             95
         ],
         "2da1a1b3-3e96-4c99-ad16-3d515af72436": [
-            105,
-            420
+            80,
+            400
         ],
         "6343bc92-dd97-496e-8f16-2ec662facd84": [
-            105,
-            705
+            80,
+            670
         ],
         "3107a47c-d935-4862-bd31-aea8abe8b1e8": [
-            105,
-            940
+            80,
+            905
         ],
         "98ca851d-68a6-44d0-ab00-8fa4533f3a87": [
-            -85,
-            1205
+            -110,
+            1170
         ],
         "59535bd4-78ba-4acc-a3bc-c80d04b4847b": [
-            280,
-            1215
+            255,
+            1180
         ],
         "5bda62ff-7c65-452f-8829-7436c55ba07f": [
-            105,
-            1405
+            80,
+            1415
+        ],
+        "266dd9ad-dac9-4300-afa3-895d7f0911d1": [
+            -290,
+            -295
+        ],
+        "ace1d298-c1a9-4e35-8e1c-efaaf707645b": [
+            -710,
+            -295
         ]
     },
     "camera": {
-        "x": 46,
-        "y": 812,
-        "k": 0.3597240447469732
+        "x": 192,
+        "y": 949,
+        "k": 0.6421412134098423
     }
 }
