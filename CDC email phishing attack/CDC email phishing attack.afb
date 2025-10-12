@@ -1,0 +1,1101 @@
+{
+    "schema": "attack_flow_v2",
+    "theme": "dark_theme",
+    "objects": [
+        {
+            "id": "flow",
+            "instance": "b1eda23c-d651-40a1-8b81-a64b38af9707",
+            "properties": [
+                [
+                    "name",
+                    "CDC email phishing attack"
+                ],
+                [
+                    "description",
+                    null
+                ],
+                [
+                    "author",
+                    [
+                        [
+                            "name",
+                            "Hayden Abrahams"
+                        ],
+                        [
+                            "identity_class",
+                            null
+                        ],
+                        [
+                            "contact_information",
+                            null
+                        ]
+                    ]
+                ],
+                [
+                    "scope",
+                    "incident"
+                ],
+                [
+                    "external_references",
+                    [
+                        [
+                            "b47a28b6e051f8b8145e8f727442e25a",
+                            [
+                                [
+                                    "source_name",
+                                    "Coronavirus phishing e-mails look like they’re from the CDC | Kaspersky official blog"
+                                ],
+                                [
+                                    "description",
+                                    null
+                                ],
+                                [
+                                    "url",
+                                    "https://www.kaspersky.com/blog/coronavirus-phishing/32395/"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                [
+                    "created",
+                    {
+                        "time": "2025-10-12T21:29:24.070+10:30",
+                        "zone": "Australia/Adelaide"
+                    }
+                ]
+            ],
+            "objects": [
+                "48df38c9-f91e-48b8-a91b-0c520020037b",
+                "cd1738c8-194b-481a-a8c1-f3607cb2319a",
+                "2684479c-f5bb-4ab5-8dd6-7b4c37128082",
+                "12805f9a-1ae6-473e-b028-697f192539a4",
+                "719bf6c9-f308-4d00-9329-eed8462b68d4",
+                "9992a0f3-05cc-4110-a40a-e56b47cd908b",
+                "f8780f30-6ec7-4d9f-894c-0991b872a33b",
+                "b2137f91-0471-4a3a-9120-1a5d67995611",
+                "ccbd2bbe-e90a-4525-9289-a7d9cb69f61d",
+                "24f6cfcd-dd4a-4629-938a-20978dc7c77e",
+                "7476a3ec-26af-46ed-9401-1ef7c3e8933e",
+                "94341071-3ada-4e0e-ae4d-de78179bea32",
+                "d60269ed-050c-4a93-98e3-953c89a21335",
+                "baa1d025-04fe-4264-84a7-d72b9d8f7e0b",
+                "0a366a2b-e9fa-40a1-bdc8-6106fda8a7ad"
+            ]
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "48df38c9-f91e-48b8-a91b-0c520020037b",
+            "source": "900b71c9-53b4-4f34-8a9a-30f5b5f90772",
+            "target": "73ed59a6-af5a-405e-9a68-4375823eab65",
+            "handles": [
+                "28cc3357-c960-4ecb-975d-60f5e9b6b7ae"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "900b71c9-53b4-4f34-8a9a-30f5b5f90772"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "73ed59a6-af5a-405e-9a68-4375823eab65"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "28cc3357-c960-4ecb-975d-60f5e9b6b7ae"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "cd1738c8-194b-481a-a8c1-f3607cb2319a",
+            "source": "231df102-82e6-4212-b3f6-8c2dc932441e",
+            "target": "0af9944f-11be-4a77-b923-f394569bfe43",
+            "handles": [
+                "dfc4d600-031c-4dbd-8d22-a546ea16313b"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "231df102-82e6-4212-b3f6-8c2dc932441e"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "0af9944f-11be-4a77-b923-f394569bfe43"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "dfc4d600-031c-4dbd-8d22-a546ea16313b"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "2684479c-f5bb-4ab5-8dd6-7b4c37128082",
+            "source": "b5542338-541a-4a14-a6df-8fafee990e96",
+            "target": "43d7b817-462b-4a01-9d0b-84992077d5cc",
+            "handles": [
+                "32a81e7c-7016-4c55-8040-c04d1c00b686"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "b5542338-541a-4a14-a6df-8fafee990e96"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "43d7b817-462b-4a01-9d0b-84992077d5cc"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "32a81e7c-7016-4c55-8040-c04d1c00b686"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "12805f9a-1ae6-473e-b028-697f192539a4",
+            "source": "92e5b53d-c6a3-4e92-84c0-0e0734d9dae7",
+            "target": "fc41a727-62c9-4983-8d7b-e40fbd20b6cf",
+            "handles": [
+                "58644912-e3b1-4977-86cd-d7c57925156c"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "92e5b53d-c6a3-4e92-84c0-0e0734d9dae7"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "fc41a727-62c9-4983-8d7b-e40fbd20b6cf"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "58644912-e3b1-4977-86cd-d7c57925156c"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "719bf6c9-f308-4d00-9329-eed8462b68d4",
+            "source": "6ea59c72-d673-4716-a0fb-6ef0a1821032",
+            "target": "19c16bd2-68e0-4774-84b1-a729be3c34b8",
+            "handles": [
+                "9efa431a-484a-4372-9860-825120ffbdbc"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "6ea59c72-d673-4716-a0fb-6ef0a1821032"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "19c16bd2-68e0-4774-84b1-a729be3c34b8"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "9efa431a-484a-4372-9860-825120ffbdbc"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "9992a0f3-05cc-4110-a40a-e56b47cd908b",
+            "source": "9cbdb931-2c6b-401b-8dff-5d5c53fa4636",
+            "target": "cef00398-5ebc-489a-abe8-f35bfe90fb46",
+            "handles": [
+                "823a57fd-37a4-480b-9498-2d9c2057debe"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "9cbdb931-2c6b-401b-8dff-5d5c53fa4636"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "cef00398-5ebc-489a-abe8-f35bfe90fb46"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "823a57fd-37a4-480b-9498-2d9c2057debe"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "f8780f30-6ec7-4d9f-894c-0991b872a33b",
+            "source": "fbe983fb-f098-48ff-9d5e-200a463e8d1d",
+            "target": "f2d5b884-8741-4444-ad2f-07d2597265bf",
+            "handles": [
+                "ea26c516-f973-41a1-b923-ef719853b4ef"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "fbe983fb-f098-48ff-9d5e-200a463e8d1d"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "f2d5b884-8741-4444-ad2f-07d2597265bf"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "ea26c516-f973-41a1-b923-ef719853b4ef"
+        },
+        {
+            "id": "asset",
+            "instance": "b2137f91-0471-4a3a-9120-1a5d67995611",
+            "properties": [
+                [
+                    "name",
+                    "Convincing email Domain"
+                ],
+                [
+                    "description",
+                    "The phishers have a email domain that looks very similar to the real CDC domain.\nReal: @cdc.gov\n"
+                ]
+            ],
+            "anchors": {
+                "0": "4c3f11ef-d0c0-4966-9146-2437ed9c39d6",
+                "30": "a1a79cab-566c-44d4-8772-fc8c567f946f",
+                "60": "217eb9d7-f6fc-4db4-89e3-caa4574d5589",
+                "90": "f45d0279-ff8b-4e99-89c6-1dfa0329a750",
+                "120": "fb894717-6ad7-41f2-aac5-8b9ad38b074b",
+                "150": "1cd1f392-0081-4d81-96a9-b55f157cb009",
+                "180": "d4ae101c-c392-4250-9fba-fa8583599304",
+                "210": "a230add4-6b11-4770-b343-9c93b3abab4d",
+                "240": "c574671c-6cf9-4a66-98e0-a1878ee61de7",
+                "270": "e3aba3a2-2c84-4d32-a919-37f38b2ec367",
+                "300": "60ea4147-d177-4466-8dad-53f174d900a5",
+                "330": "4c537481-5d46-4de9-a8eb-3e2fd6ee4b0d"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "4c3f11ef-d0c0-4966-9146-2437ed9c39d6",
+            "latches": [
+                "73ed59a6-af5a-405e-9a68-4375823eab65"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "a1a79cab-566c-44d4-8772-fc8c567f946f",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "217eb9d7-f6fc-4db4-89e3-caa4574d5589",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "f45d0279-ff8b-4e99-89c6-1dfa0329a750",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "fb894717-6ad7-41f2-aac5-8b9ad38b074b",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "1cd1f392-0081-4d81-96a9-b55f157cb009",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "d4ae101c-c392-4250-9fba-fa8583599304",
+            "latches": [
+                "b5542338-541a-4a14-a6df-8fafee990e96"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "a230add4-6b11-4770-b343-9c93b3abab4d",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "c574671c-6cf9-4a66-98e0-a1878ee61de7",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "e3aba3a2-2c84-4d32-a919-37f38b2ec367",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "60ea4147-d177-4466-8dad-53f174d900a5",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "4c537481-5d46-4de9-a8eb-3e2fd6ee4b0d",
+            "latches": []
+        },
+        {
+            "id": "domain_name",
+            "instance": "ccbd2bbe-e90a-4525-9289-a7d9cb69f61d",
+            "properties": [
+                [
+                    "value",
+                    "@cdc-gov.org"
+                ]
+            ],
+            "anchors": {
+                "0": "a04e319f-9d52-4577-8063-22317d51d24a",
+                "30": "f213865d-8d05-4d53-b087-c7516c6bd0a9",
+                "60": "efcbb911-5686-4e09-99b4-dcc7df55d7cc",
+                "90": "04bf1db9-286b-4651-84c3-64437cf69ed7",
+                "120": "1a8162e1-0120-4231-ab54-1ca5607a367c",
+                "150": "4f17b09d-f870-4b0a-a87d-4062fc1cf67f",
+                "180": "34ed0ba9-4d4c-449c-8eab-5c96d88b9ff4",
+                "210": "9146f8c3-2e97-42ba-b03a-aaff231feea0",
+                "240": "279287e4-2191-48ef-9480-6fbaed3fd78e",
+                "270": "8f2eaf46-d0e5-43f6-9921-f7a5d81f1f39",
+                "300": "40b5b272-1ecd-46bb-b4c2-e470f2e9535d",
+                "330": "7a60e621-ddd3-4977-9af7-80af221996d6"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "a04e319f-9d52-4577-8063-22317d51d24a",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "f213865d-8d05-4d53-b087-c7516c6bd0a9",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "efcbb911-5686-4e09-99b4-dcc7df55d7cc",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "04bf1db9-286b-4651-84c3-64437cf69ed7",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "1a8162e1-0120-4231-ab54-1ca5607a367c",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "4f17b09d-f870-4b0a-a87d-4062fc1cf67f",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "34ed0ba9-4d4c-449c-8eab-5c96d88b9ff4",
+            "latches": [
+                "900b71c9-53b4-4f34-8a9a-30f5b5f90772"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "9146f8c3-2e97-42ba-b03a-aaff231feea0",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "279287e4-2191-48ef-9480-6fbaed3fd78e",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "8f2eaf46-d0e5-43f6-9921-f7a5d81f1f39",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "40b5b272-1ecd-46bb-b4c2-e470f2e9535d",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "7a60e621-ddd3-4977-9af7-80af221996d6",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "24f6cfcd-dd4a-4629-938a-20978dc7c77e",
+            "properties": [
+                [
+                    "name",
+                    "Phishing email spread"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0001"
+                        ],
+                        [
+                            "technique",
+                            "T1566.002"
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "The attacks create a phishing email containing a malicious link, pretending to be the CDC. They use a convincing domain name and urgently advise the recipient to click on the link to see the updated list of new cases."
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "45945f45-eb93-47f5-be14-16f9c162cd26",
+                "30": "e7bffd78-0a1c-48a7-9235-63e1377ae276",
+                "60": "75e3a397-3544-45b1-85e0-86f74c98e66c",
+                "90": "ad3822a3-efc3-417c-a9b5-40a16d930586",
+                "120": "2e34b64d-cb66-4502-abad-cea74a88a46d",
+                "150": "98f9f07b-be7c-410f-a73f-dc588569e180",
+                "180": "aea9af3b-ff57-424e-9a46-68d3ef1f33fa",
+                "210": "ed86a297-67a2-43b2-8f43-8c786158b53f",
+                "240": "4ad5429a-cd0b-436b-b0f5-bd27ed421c93",
+                "270": "812a05e3-0398-4d4d-aa37-e1102a4e34ef",
+                "300": "4479637a-7cc3-4eea-8024-57393e7a856c",
+                "330": "bfca31ae-42ce-4dd7-b9f2-29a710257765"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "45945f45-eb93-47f5-be14-16f9c162cd26",
+            "latches": [
+                "43d7b817-462b-4a01-9d0b-84992077d5cc"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "e7bffd78-0a1c-48a7-9235-63e1377ae276",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "75e3a397-3544-45b1-85e0-86f74c98e66c",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "ad3822a3-efc3-417c-a9b5-40a16d930586",
+            "latches": [
+                "0af9944f-11be-4a77-b923-f394569bfe43"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "2e34b64d-cb66-4502-abad-cea74a88a46d",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "98f9f07b-be7c-410f-a73f-dc588569e180",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "aea9af3b-ff57-424e-9a46-68d3ef1f33fa",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "ed86a297-67a2-43b2-8f43-8c786158b53f",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "4ad5429a-cd0b-436b-b0f5-bd27ed421c93",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "812a05e3-0398-4d4d-aa37-e1102a4e34ef",
+            "latches": [
+                "92e5b53d-c6a3-4e92-84c0-0e0734d9dae7"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "4479637a-7cc3-4eea-8024-57393e7a856c",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "bfca31ae-42ce-4dd7-b9f2-29a710257765",
+            "latches": []
+        },
+        {
+            "id": "asset",
+            "instance": "7476a3ec-26af-46ed-9401-1ef7c3e8933e",
+            "properties": [
+                [
+                    "name",
+                    "Email list"
+                ],
+                [
+                    "description",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "eeb357a9-da18-4c5c-8af9-83bfcece6715",
+                "30": "21f22d0e-41b6-4e55-b7fa-4bf6c42ac2b1",
+                "60": "b9db2587-acda-4664-9cef-84bd6a87dd95",
+                "90": "f1f46ac9-abb8-498f-bd44-5c49b21f167e",
+                "120": "0d33c504-e339-448a-b6b6-2203aeebe01b",
+                "150": "4d0b042a-1230-4be4-b870-924cc1daaf7c",
+                "180": "22ed5009-18e7-493c-ad9f-c911dadb8ea0",
+                "210": "dd04c67f-9b3e-4917-8434-b865bc50a243",
+                "240": "8c576496-47f7-4827-a6e3-c58b7d40be13",
+                "270": "462a06e2-b1f3-4288-a070-771ec6b2c892",
+                "300": "d786dac7-3a1b-4115-9977-2e299a7c1e7c",
+                "330": "430627a6-fc25-4e2d-9e7f-2a590d6ed448"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "eeb357a9-da18-4c5c-8af9-83bfcece6715",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "21f22d0e-41b6-4e55-b7fa-4bf6c42ac2b1",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "b9db2587-acda-4664-9cef-84bd6a87dd95",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "f1f46ac9-abb8-498f-bd44-5c49b21f167e",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "0d33c504-e339-448a-b6b6-2203aeebe01b",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "4d0b042a-1230-4be4-b870-924cc1daaf7c",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "22ed5009-18e7-493c-ad9f-c911dadb8ea0",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "dd04c67f-9b3e-4917-8434-b865bc50a243",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "8c576496-47f7-4827-a6e3-c58b7d40be13",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "462a06e2-b1f3-4288-a070-771ec6b2c892",
+            "latches": [
+                "231df102-82e6-4212-b3f6-8c2dc932441e"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "d786dac7-3a1b-4115-9977-2e299a7c1e7c",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "430627a6-fc25-4e2d-9e7f-2a590d6ed448",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "94341071-3ada-4e0e-ae4d-de78179bea32",
+            "properties": [
+                [
+                    "name",
+                    "Hyperlink disguised as real CDC link"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            null
+                        ],
+                        [
+                            "technique",
+                            null
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "The malicious link is displayed as the real CDC website, but the real address links to a fake login site."
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "13ae9f9a-a8d0-4400-b89f-0b654da40672",
+                "30": "72747c2f-f9c8-4dcd-b936-b5f9c07f7f3d",
+                "60": "4cbee7ff-15a7-435d-8fa5-cca10f7fc299",
+                "90": "99cb15b0-ed01-43b5-bf2b-3fb343765b56",
+                "120": "fddf768f-b98b-4b7d-aa2b-6b16bdcb7a9b",
+                "150": "436164ab-c01c-4397-8837-7b028f2f2d7b",
+                "180": "fb41d28e-3627-40e8-8d64-3d3b632601fc",
+                "210": "136d8db4-c290-49f5-acfb-71b40b9e305c",
+                "240": "c94b02c0-0420-4191-8a41-baf25723f6c3",
+                "270": "1f1640c8-70e2-4abb-8324-918e727fdede",
+                "300": "6d3f429e-da27-4c3b-8eea-be688e5a5512",
+                "330": "3865be95-b450-4386-99b0-19d87b0051d4"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "13ae9f9a-a8d0-4400-b89f-0b654da40672",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "72747c2f-f9c8-4dcd-b936-b5f9c07f7f3d",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "4cbee7ff-15a7-435d-8fa5-cca10f7fc299",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "99cb15b0-ed01-43b5-bf2b-3fb343765b56",
+            "latches": [
+                "fc41a727-62c9-4983-8d7b-e40fbd20b6cf"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "fddf768f-b98b-4b7d-aa2b-6b16bdcb7a9b",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "436164ab-c01c-4397-8837-7b028f2f2d7b",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "fb41d28e-3627-40e8-8d64-3d3b632601fc",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "136d8db4-c290-49f5-acfb-71b40b9e305c",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "c94b02c0-0420-4191-8a41-baf25723f6c3",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "1f1640c8-70e2-4abb-8324-918e727fdede",
+            "latches": [
+                "6ea59c72-d673-4716-a0fb-6ef0a1821032"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "6d3f429e-da27-4c3b-8eea-be688e5a5512",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "3865be95-b450-4386-99b0-19d87b0051d4",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "d60269ed-050c-4a93-98e3-953c89a21335",
+            "properties": [
+                [
+                    "name",
+                    "Fake Outlook website"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            null
+                        ],
+                        [
+                            "technique",
+                            null
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "The website mimics the Microsoft outlook login interface, requesting the recipient to login with outlook. If credentials are entered, they will be stolen and the victim would be forwarded to the real CDC website."
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "5977097f-31bc-4d4e-b3ad-a44754d26498",
+                "30": "5e7e2b01-d572-45d6-bb20-644394b49365",
+                "60": "30ec7fb3-e47d-49a7-9bbe-1682f8b4a610",
+                "90": "e673fc59-eef8-44a9-a8e1-35ebdfe67cf1",
+                "120": "48d00e0a-9af2-49d5-bc19-c8903fdd73f4",
+                "150": "298fd2a0-acc6-48b4-bb6a-56ac3a6fd16d",
+                "180": "a745a348-086f-488f-ba12-500987cb5600",
+                "210": "66a4df4a-9df9-4371-9348-831d555e520b",
+                "240": "f3a39202-5e5c-4704-ab57-6b8611d8ad9b",
+                "270": "68836044-fbbb-4858-b7d2-452eed29d221",
+                "300": "2816fcb2-ce25-4f04-afb2-af93d559c92f",
+                "330": "dcc1f091-9855-4758-a321-502daa53a374"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "5977097f-31bc-4d4e-b3ad-a44754d26498",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "5e7e2b01-d572-45d6-bb20-644394b49365",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "30ec7fb3-e47d-49a7-9bbe-1682f8b4a610",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "e673fc59-eef8-44a9-a8e1-35ebdfe67cf1",
+            "latches": [
+                "19c16bd2-68e0-4774-84b1-a729be3c34b8"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "48d00e0a-9af2-49d5-bc19-c8903fdd73f4",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "298fd2a0-acc6-48b4-bb6a-56ac3a6fd16d",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "a745a348-086f-488f-ba12-500987cb5600",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "66a4df4a-9df9-4371-9348-831d555e520b",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "f3a39202-5e5c-4704-ab57-6b8611d8ad9b",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "68836044-fbbb-4858-b7d2-452eed29d221",
+            "latches": [
+                "9cbdb931-2c6b-401b-8dff-5d5c53fa4636"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "2816fcb2-ce25-4f04-afb2-af93d559c92f",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "dcc1f091-9855-4758-a321-502daa53a374",
+            "latches": []
+        },
+        {
+            "id": "asset",
+            "instance": "baa1d025-04fe-4264-84a7-d72b9d8f7e0b",
+            "properties": [
+                [
+                    "name",
+                    "Email Credentials"
+                ],
+                [
+                    "description",
+                    "The attackers have stolen victims email login credentials."
+                ]
+            ],
+            "anchors": {
+                "0": "318e4b5b-4d9f-4186-9a59-0dd358fbe7da",
+                "30": "ba7df96f-9db7-426a-8bbc-899c79f29793",
+                "60": "81351f89-7276-4a7d-bcfe-088a6bb7a9bc",
+                "90": "487e73e0-4fa1-48bf-ae49-d0290a9089df",
+                "120": "5568f4c9-3301-4bd1-8616-24877ad68250",
+                "150": "e4918c59-2f3a-4273-89e7-c69c0e204876",
+                "180": "ee5bd51e-2619-481d-8959-0afd0cab2662",
+                "210": "5c291774-94e5-4d55-8b4d-52ce345c93d6",
+                "240": "8bbe0d6d-652c-4473-b82a-fd491232dbfa",
+                "270": "ba953052-5df2-4d25-a152-c33a955d3df0",
+                "300": "a4fdd5fc-59c6-481b-9056-53074c6c424e",
+                "330": "e34f0bbe-36c1-405d-b6c1-cc69f6fb4dd3"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "318e4b5b-4d9f-4186-9a59-0dd358fbe7da",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "ba7df96f-9db7-426a-8bbc-899c79f29793",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "81351f89-7276-4a7d-bcfe-088a6bb7a9bc",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "487e73e0-4fa1-48bf-ae49-d0290a9089df",
+            "latches": [
+                "cef00398-5ebc-489a-abe8-f35bfe90fb46"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "5568f4c9-3301-4bd1-8616-24877ad68250",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "e4918c59-2f3a-4273-89e7-c69c0e204876",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "ee5bd51e-2619-481d-8959-0afd0cab2662",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "5c291774-94e5-4d55-8b4d-52ce345c93d6",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "8bbe0d6d-652c-4473-b82a-fd491232dbfa",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "ba953052-5df2-4d25-a152-c33a955d3df0",
+            "latches": [
+                "fbe983fb-f098-48ff-9d5e-200a463e8d1d"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "a4fdd5fc-59c6-481b-9056-53074c6c424e",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "e34f0bbe-36c1-405d-b6c1-cc69f6fb4dd3",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "0a366a2b-e9fa-40a1-bdc8-6106fda8a7ad",
+            "properties": [
+                [
+                    "name",
+                    "Email Collection"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0009"
+                        ],
+                        [
+                            "technique",
+                            "T1114"
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "The attackers use the victims stolen credentials to perform email collection, stealing more credentials and potential blackmail or data destruction"
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "48c9435a-304d-49d7-8293-24b437648cbd",
+                "30": "96fad292-3825-441c-a938-105999b7e9f9",
+                "60": "b1ff1326-9576-4fc1-8037-8a698cce2b62",
+                "90": "87f07578-25e7-408e-9ef6-fd0f3666f6d1",
+                "120": "b2ff90c7-d66e-4eca-835b-c71c28802a64",
+                "150": "c37a9251-4918-4dae-a749-5efba0648fec",
+                "180": "c8fd6604-b1d0-40ba-b2da-0d160870a81a",
+                "210": "32fd9083-da16-453b-874b-07ab432f9a5e",
+                "240": "aa877812-44fe-42f7-b89f-281a83036537",
+                "270": "ee786bea-a868-482c-ae74-ad888068ad8e",
+                "300": "6b7b18a0-1378-4675-a0d8-51d1defbd45a",
+                "330": "3d24f329-d2c3-4b82-879e-215f249ce546"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "48c9435a-304d-49d7-8293-24b437648cbd",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "96fad292-3825-441c-a938-105999b7e9f9",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "b1ff1326-9576-4fc1-8037-8a698cce2b62",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "87f07578-25e7-408e-9ef6-fd0f3666f6d1",
+            "latches": [
+                "f2d5b884-8741-4444-ad2f-07d2597265bf"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "b2ff90c7-d66e-4eca-835b-c71c28802a64",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "c37a9251-4918-4dae-a749-5efba0648fec",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "c8fd6604-b1d0-40ba-b2da-0d160870a81a",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "32fd9083-da16-453b-874b-07ab432f9a5e",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "aa877812-44fe-42f7-b89f-281a83036537",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "ee786bea-a868-482c-ae74-ad888068ad8e",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "6b7b18a0-1378-4675-a0d8-51d1defbd45a",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "3d24f329-d2c3-4b82-879e-215f249ce546",
+            "latches": []
+        }
+    ],
+    "layout": {
+        "b2137f91-0471-4a3a-9120-1a5d67995611": [
+            425,
+            120
+        ],
+        "ccbd2bbe-e90a-4525-9289-a7d9cb69f61d": [
+            780,
+            120
+        ],
+        "24f6cfcd-dd4a-4629-938a-20978dc7c77e": [
+            35,
+            120
+        ],
+        "7476a3ec-26af-46ed-9401-1ef7c3e8933e": [
+            35,
+            -80
+        ],
+        "94341071-3ada-4e0e-ae4d-de78179bea32": [
+            35,
+            430
+        ],
+        "d60269ed-050c-4a93-98e3-953c89a21335": [
+            35,
+            700
+        ],
+        "baa1d025-04fe-4264-84a7-d72b9d8f7e0b": [
+            35,
+            970
+        ],
+        "0a366a2b-e9fa-40a1-bdc8-6106fda8a7ad": [
+            35,
+            1275
+        ]
+    },
+    "camera": {
+        "x": -262,
+        "y": 710,
+        "k": 0.4222004437118896
+    }
+}
