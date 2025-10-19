@@ -1,0 +1,1078 @@
+{
+    "schema": "attack_flow_v2",
+    "theme": "dark_theme",
+    "objects": [
+        {
+            "id": "flow",
+            "instance": "1e2f7605-c7bc-4c3b-91dc-864c3d1e64cc",
+            "properties": [
+                [
+                    "name",
+                    "UVM Health Ransomware Attack"
+                ],
+                [
+                    "description",
+                    null
+                ],
+                [
+                    "author",
+                    [
+                        [
+                            "name",
+                            "Hayden"
+                        ],
+                        [
+                            "identity_class",
+                            null
+                        ],
+                        [
+                            "contact_information",
+                            null
+                        ]
+                    ]
+                ],
+                [
+                    "scope",
+                    "incident"
+                ],
+                [
+                    "external_references",
+                    [
+                        [
+                            "a5da72e45a8bc246d130e6e3ac8337d5",
+                            [
+                                [
+                                    "source_name",
+                                    "Insurica"
+                                ],
+                                [
+                                    "description",
+                                    null
+                                ],
+                                [
+                                    "url",
+                                    "https://insurica.com/blog/uvm-health-network-ransomware-attack/"
+                                ]
+                            ]
+                        ],
+                        [
+                            "adf2a25c6f11a2ff813736bf1aa2a066",
+                            [
+                                [
+                                    "source_name",
+                                    " University of Hawaii - West Oahu "
+                                ],
+                                [
+                                    "description",
+                                    null
+                                ],
+                                [
+                                    "url",
+                                    "https://westoahu.hawaii.edu/cyber/ics-cybersecurity/ics-weekly-summaries/ransomware-attack-on-the-university-of-vermont-health-network/"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                [
+                    "created",
+                    {
+                        "time": "2025-10-19T21:57:22.780+10:30",
+                        "zone": "Australia/Adelaide"
+                    }
+                ]
+            ],
+            "objects": [
+                "798a1d72-2cf8-4771-bd0f-71aec68bae1b",
+                "14c709bc-6270-495f-b3b1-748801e8ec03",
+                "44dcb11f-9f09-4c3c-9736-06708d96e6da",
+                "6b48f029-74b5-46df-8a25-d696f9b5ec2e",
+                "628fde6d-1843-4e54-9d68-4cdfe0b882c1",
+                "db87d17b-470c-40bc-ab69-8ae5cdb0d4cb",
+                "ebab4291-bfbf-45d4-9082-8abbaef85dc6",
+                "f89187fc-7e57-4139-ad62-2ea1ae89321d",
+                "17a12fe7-e6c1-4516-9e4e-8575b841333a",
+                "12ddb316-0d55-4a47-9dd1-edecc1650489",
+                "429c307a-85ce-4d88-9cb6-6f4e5db33334",
+                "931e87f2-20ea-44e8-8601-95c0542be3f5",
+                "f11c8ade-d80d-448e-92e5-bc026ad6e45b"
+            ]
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "798a1d72-2cf8-4771-bd0f-71aec68bae1b",
+            "source": "dab81548-a2aa-49bc-b6fc-961c105c1597",
+            "target": "261ba343-f261-479a-ab93-10837c2796df",
+            "handles": [
+                "670d46b0-6a09-41d3-ac2f-3d04a9ddcf0b"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "dab81548-a2aa-49bc-b6fc-961c105c1597"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "261ba343-f261-479a-ab93-10837c2796df"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "670d46b0-6a09-41d3-ac2f-3d04a9ddcf0b"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "14c709bc-6270-495f-b3b1-748801e8ec03",
+            "source": "ad8bc9f3-3fb0-4f44-9f65-bca28b8ba219",
+            "target": "862e0463-c2cb-42ca-8a62-7b12918c2089",
+            "handles": [
+                "b3f122df-e8e8-4792-9d75-4afeb71c858c"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "ad8bc9f3-3fb0-4f44-9f65-bca28b8ba219"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "862e0463-c2cb-42ca-8a62-7b12918c2089"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "b3f122df-e8e8-4792-9d75-4afeb71c858c"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "44dcb11f-9f09-4c3c-9736-06708d96e6da",
+            "source": "3f3a6c0d-016c-42c1-b5af-f7d897afa50f",
+            "target": "b7d5f20a-f736-4a26-b6e8-34fddbabb28e",
+            "handles": [
+                "035e7b0b-6a2d-475e-8594-722fbae364a6"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "3f3a6c0d-016c-42c1-b5af-f7d897afa50f"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "b7d5f20a-f736-4a26-b6e8-34fddbabb28e"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "035e7b0b-6a2d-475e-8594-722fbae364a6"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "6b48f029-74b5-46df-8a25-d696f9b5ec2e",
+            "source": "daabdf8e-955b-4c48-afa3-4de9137ce8c7",
+            "target": "b3491fad-97a3-4d5d-98cb-580bd0c2fd4e",
+            "handles": [
+                "b2336b2b-4bd6-4022-bbe9-f09a150e77cb"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "daabdf8e-955b-4c48-afa3-4de9137ce8c7"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "b3491fad-97a3-4d5d-98cb-580bd0c2fd4e"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "b2336b2b-4bd6-4022-bbe9-f09a150e77cb"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "628fde6d-1843-4e54-9d68-4cdfe0b882c1",
+            "source": "8523e019-165e-452f-977c-d27b50f153fc",
+            "target": "0697992c-afdf-4a1f-8e85-740619c68265",
+            "handles": [
+                "4724235b-0667-4cd7-9eed-202ca3cab804"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "8523e019-165e-452f-977c-d27b50f153fc"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "0697992c-afdf-4a1f-8e85-740619c68265"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "4724235b-0667-4cd7-9eed-202ca3cab804"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "db87d17b-470c-40bc-ab69-8ae5cdb0d4cb",
+            "source": "efbcc862-9293-44ba-91a4-d135607c95cd",
+            "target": "2351a60e-0f5e-4c82-8ea9-44b9a62de2c1",
+            "handles": [
+                "d796306b-ed13-4783-b52d-f96aa87a5115"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "efbcc862-9293-44ba-91a4-d135607c95cd"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "2351a60e-0f5e-4c82-8ea9-44b9a62de2c1"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "d796306b-ed13-4783-b52d-f96aa87a5115"
+        },
+        {
+            "id": "action",
+            "instance": "ebab4291-bfbf-45d4-9082-8abbaef85dc6",
+            "properties": [
+                [
+                    "name",
+                    "Phishing"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0001"
+                        ],
+                        [
+                            "technique",
+                            "T1566"
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "Using the HOA's email, the attackers sent phishing emails out to the members, had attached Microsoft files containing malware. While on holiday, a UVM Health Network employee opens this phishing email and downloads the malicious file."
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "8b93adbf-4605-4948-a3e3-1b0ea3d2aeb9",
+                "30": "015e37dd-c475-41f6-8ad4-dc8ad70f1006",
+                "60": "167e3d17-fe29-4977-83ac-4e3b2b15c21d",
+                "90": "6171eb2f-9af6-4686-bac9-dfc185653262",
+                "120": "fc0428bb-1fda-4f11-99a9-51e409db1453",
+                "150": "dcf2bc59-618a-4a74-bf6e-c28436f82150",
+                "180": "f49f0276-e9d1-4357-9924-3a74dc41f288",
+                "210": "1aff06f8-de14-46b6-8292-74f001d806bc",
+                "240": "233802d3-df81-4a7d-921f-ecc78de83cf1",
+                "270": "0537f47d-02ba-4be9-8490-189a7cd47ea2",
+                "300": "42dbdd5d-9de1-4ac2-aca5-8b00af07c2d3",
+                "330": "24d54d57-9921-446f-b2a1-c76a91eb4ea5"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "8b93adbf-4605-4948-a3e3-1b0ea3d2aeb9",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "015e37dd-c475-41f6-8ad4-dc8ad70f1006",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "167e3d17-fe29-4977-83ac-4e3b2b15c21d",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "6171eb2f-9af6-4686-bac9-dfc185653262",
+            "latches": [
+                "261ba343-f261-479a-ab93-10837c2796df"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "fc0428bb-1fda-4f11-99a9-51e409db1453",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "dcf2bc59-618a-4a74-bf6e-c28436f82150",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "f49f0276-e9d1-4357-9924-3a74dc41f288",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "1aff06f8-de14-46b6-8292-74f001d806bc",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "233802d3-df81-4a7d-921f-ecc78de83cf1",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "0537f47d-02ba-4be9-8490-189a7cd47ea2",
+            "latches": [
+                "ad8bc9f3-3fb0-4f44-9f65-bca28b8ba219"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "42dbdd5d-9de1-4ac2-aca5-8b00af07c2d3",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "24d54d57-9921-446f-b2a1-c76a91eb4ea5",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "f89187fc-7e57-4139-ad62-2ea1ae89321d",
+            "properties": [
+                [
+                    "name",
+                    "Trusted Relationship"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0001"
+                        ],
+                        [
+                            "technique",
+                            "T1199"
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "The attackers had hacked a local home owners association, allowing them to exploit the trusted relationship between its members"
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "1a1e6dea-cde1-4221-bd49-a563cc795375",
+                "30": "bb8215a5-5685-491f-b290-58122979a254",
+                "60": "4f17e641-ad06-4ed8-987b-90efcaa15300",
+                "90": "167f8d6e-93ce-4541-b650-a27d6ac77e1a",
+                "120": "cf965da0-4c00-4cd3-9475-2df6700d3128",
+                "150": "7100b466-69e7-4b7f-b523-e9879d22b494",
+                "180": "caf3e97b-ebd9-4dea-8f4e-f28cd4b8b0f4",
+                "210": "85b5e832-6111-4eee-9b89-c50afe7e02cd",
+                "240": "99877e47-848e-420d-b14a-8b3d6c9778b8",
+                "270": "2814362f-1a70-4fd7-a96f-318bc34a4336",
+                "300": "0ad87b86-ca4b-48a0-b462-1b863389c4c4",
+                "330": "b0f8f327-d486-4ba1-ad12-fa843a6be90a"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "1a1e6dea-cde1-4221-bd49-a563cc795375",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "bb8215a5-5685-491f-b290-58122979a254",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "4f17e641-ad06-4ed8-987b-90efcaa15300",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "167f8d6e-93ce-4541-b650-a27d6ac77e1a",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "cf965da0-4c00-4cd3-9475-2df6700d3128",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "7100b466-69e7-4b7f-b523-e9879d22b494",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "caf3e97b-ebd9-4dea-8f4e-f28cd4b8b0f4",
+            "latches": [
+                "dab81548-a2aa-49bc-b6fc-961c105c1597"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "85b5e832-6111-4eee-9b89-c50afe7e02cd",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "99877e47-848e-420d-b14a-8b3d6c9778b8",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "2814362f-1a70-4fd7-a96f-318bc34a4336",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "0ad87b86-ca4b-48a0-b462-1b863389c4c4",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "b0f8f327-d486-4ba1-ad12-fa843a6be90a",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "17a12fe7-e6c1-4516-9e4e-8575b841333a",
+            "properties": [
+                [
+                    "name",
+                    "Malicious File"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0002"
+                        ],
+                        [
+                            "technique",
+                            "T1204.002"
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "The victem opens the malicious Microsoft file, which runs a macro that downloads and executes Trickbot"
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "632ceef9-1a17-4d2d-a5eb-d52d992de87f",
+                "30": "ba1beb71-fb2d-4d06-bee6-96699b085d7b",
+                "60": "13627e7e-5678-45cc-b614-5838a7c8371c",
+                "90": "1c3b00db-87f4-44c3-b31f-71bacedcbda7",
+                "120": "51bc15be-dd56-4bb6-be62-f16d133f346c",
+                "150": "ba5b1589-49a7-4f62-bc27-98bf6e45daea",
+                "180": "7567e9c5-e378-481b-a11f-377dad393aa0",
+                "210": "2b886588-4dbb-440c-977d-5e531b42fb7d",
+                "240": "ba4cc7e0-bb18-4ed0-bb50-1d9fa6d44862",
+                "270": "59327935-9305-4395-b02c-a01c78e2d179",
+                "300": "ac22d485-ed47-4b90-9132-918a2a87e3b3",
+                "330": "d67215ab-6b2a-44f7-ab94-13287951bcc2"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "632ceef9-1a17-4d2d-a5eb-d52d992de87f",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "ba1beb71-fb2d-4d06-bee6-96699b085d7b",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "13627e7e-5678-45cc-b614-5838a7c8371c",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "1c3b00db-87f4-44c3-b31f-71bacedcbda7",
+            "latches": [
+                "862e0463-c2cb-42ca-8a62-7b12918c2089"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "51bc15be-dd56-4bb6-be62-f16d133f346c",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "ba5b1589-49a7-4f62-bc27-98bf6e45daea",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "7567e9c5-e378-481b-a11f-377dad393aa0",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "2b886588-4dbb-440c-977d-5e531b42fb7d",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "ba4cc7e0-bb18-4ed0-bb50-1d9fa6d44862",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "59327935-9305-4395-b02c-a01c78e2d179",
+            "latches": [
+                "3f3a6c0d-016c-42c1-b5af-f7d897afa50f"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "ac22d485-ed47-4b90-9132-918a2a87e3b3",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "d67215ab-6b2a-44f7-ab94-13287951bcc2",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "12ddb316-0d55-4a47-9dd1-edecc1650489",
+            "properties": [
+                [
+                    "name",
+                    "Boot or Logon Initialization Scripts"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0003"
+                        ],
+                        [
+                            "technique",
+                            "T1037"
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "The Trickbot creates a persistence mechanism so that it automatically executes upon the laptop rebooting."
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "7ddacd97-cb9a-448b-a2f0-889c967265e4",
+                "30": "d0b1b2f6-7080-454a-b336-71f9e9f659f2",
+                "60": "e620b50a-8e25-43ca-a027-a085a5a2c15c",
+                "90": "2a992dfd-0ea0-424d-b506-66ffdbf3bfbb",
+                "120": "295efefd-3597-44d9-a697-b84dc7aa95f2",
+                "150": "afbafe5b-c3ca-4c17-a87b-6d803210050a",
+                "180": "0ef781cf-f348-4c60-975d-98bf76e2c59e",
+                "210": "20575f37-89aa-42ff-8929-888a9c1f6b0e",
+                "240": "0ee457d5-210b-49df-a091-584cb4d580e5",
+                "270": "ab5dea1b-adde-43f2-8196-ac6662726911",
+                "300": "cc623106-d1b8-490e-8674-fd16346f447b",
+                "330": "854ff278-3aee-48cc-909b-8d812439961f"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "7ddacd97-cb9a-448b-a2f0-889c967265e4",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "d0b1b2f6-7080-454a-b336-71f9e9f659f2",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "e620b50a-8e25-43ca-a027-a085a5a2c15c",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "2a992dfd-0ea0-424d-b506-66ffdbf3bfbb",
+            "latches": [
+                "b7d5f20a-f736-4a26-b6e8-34fddbabb28e"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "295efefd-3597-44d9-a697-b84dc7aa95f2",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "afbafe5b-c3ca-4c17-a87b-6d803210050a",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "0ef781cf-f348-4c60-975d-98bf76e2c59e",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "20575f37-89aa-42ff-8929-888a9c1f6b0e",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "0ee457d5-210b-49df-a091-584cb4d580e5",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "ab5dea1b-adde-43f2-8196-ac6662726911",
+            "latches": [
+                "daabdf8e-955b-4c48-afa3-4de9137ce8c7"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "cc623106-d1b8-490e-8674-fd16346f447b",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "854ff278-3aee-48cc-909b-8d812439961f",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "429c307a-85ce-4d88-9cb6-6f4e5db33334",
+            "properties": [
+                [
+                    "name",
+                    "Lateral Tool Transfer"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0008"
+                        ],
+                        [
+                            "technique",
+                            "T1570"
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "The compromised employee comes back from vacation and connects their laptop to the UVM network, giving the attackers access too the whole network."
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "a7fa3cd7-c861-465e-9890-e9e19bae3e33",
+                "30": "00140de4-afe0-465c-be82-d68466456370",
+                "60": "1f235d86-445e-4815-9b3b-c7bdf8b89dcb",
+                "90": "d81f72fa-d3be-4af8-a528-4b18f36452d8",
+                "120": "84d0979b-26e1-4aae-bd32-1618f410446e",
+                "150": "994404d0-38ab-4d78-962c-9057f00b91ed",
+                "180": "051c4084-154e-405b-a45b-431af3e79609",
+                "210": "099bf559-1432-47a3-86aa-ba1f9d63f45d",
+                "240": "c3b93e62-dd11-4c70-adc3-1d270f23938d",
+                "270": "2618b6c3-b225-44ba-8891-ab77176faf31",
+                "300": "0145b86e-afd7-4a06-98b7-61d720a7ce4d",
+                "330": "d733561b-0ce1-45d8-848c-54d3d9765739"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "a7fa3cd7-c861-465e-9890-e9e19bae3e33",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "00140de4-afe0-465c-be82-d68466456370",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "1f235d86-445e-4815-9b3b-c7bdf8b89dcb",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "d81f72fa-d3be-4af8-a528-4b18f36452d8",
+            "latches": [
+                "b3491fad-97a3-4d5d-98cb-580bd0c2fd4e"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "84d0979b-26e1-4aae-bd32-1618f410446e",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "994404d0-38ab-4d78-962c-9057f00b91ed",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "051c4084-154e-405b-a45b-431af3e79609",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "099bf559-1432-47a3-86aa-ba1f9d63f45d",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "c3b93e62-dd11-4c70-adc3-1d270f23938d",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "2618b6c3-b225-44ba-8891-ab77176faf31",
+            "latches": [
+                "8523e019-165e-452f-977c-d27b50f153fc"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "0145b86e-afd7-4a06-98b7-61d720a7ce4d",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "d733561b-0ce1-45d8-848c-54d3d9765739",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "931e87f2-20ea-44e8-8601-95c0542be3f5",
+            "properties": [
+                [
+                    "name",
+                    "Ingress Tool Transfer"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0011"
+                        ],
+                        [
+                            "technique",
+                            "T1105"
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "The Ryuk ransomware is downloaded and executed in the network"
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "0165eb8d-c3df-4f8b-920d-276cea89d7e5",
+                "30": "d0d41800-9349-44f9-8d59-3cc4def4e6be",
+                "60": "321d6204-ed10-4714-8071-b7a988715932",
+                "90": "ead012d4-6bd0-4f8c-8de8-09bc30a65665",
+                "120": "a4fcbb55-c8da-406a-acc8-b0c3e9603f5a",
+                "150": "29404330-fcd0-4501-b0c6-ccc747c1f242",
+                "180": "b2d93acc-47d8-4b6a-9c14-3751ee9f2bfc",
+                "210": "688166e5-27b8-40ae-a80b-9a06ac641e35",
+                "240": "e03f8cc3-11c6-4769-8e3d-8fcaa1a67760",
+                "270": "bee75d94-4bd8-42bb-88aa-bc2ee47171d7",
+                "300": "9e96ef91-64b2-484c-9bf4-d96255122ca8",
+                "330": "81320508-b162-4235-9f25-31ebdea045f6"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "0165eb8d-c3df-4f8b-920d-276cea89d7e5",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "d0d41800-9349-44f9-8d59-3cc4def4e6be",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "321d6204-ed10-4714-8071-b7a988715932",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "ead012d4-6bd0-4f8c-8de8-09bc30a65665",
+            "latches": [
+                "0697992c-afdf-4a1f-8e85-740619c68265"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "a4fcbb55-c8da-406a-acc8-b0c3e9603f5a",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "29404330-fcd0-4501-b0c6-ccc747c1f242",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "b2d93acc-47d8-4b6a-9c14-3751ee9f2bfc",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "688166e5-27b8-40ae-a80b-9a06ac641e35",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "e03f8cc3-11c6-4769-8e3d-8fcaa1a67760",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "bee75d94-4bd8-42bb-88aa-bc2ee47171d7",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "9e96ef91-64b2-484c-9bf4-d96255122ca8",
+            "latches": [
+                "efbcc862-9293-44ba-91a4-d135607c95cd"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "81320508-b162-4235-9f25-31ebdea045f6",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "f11c8ade-d80d-448e-92e5-bc026ad6e45b",
+            "properties": [
+                [
+                    "name",
+                    "Data Encrypted for Impact"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0034"
+                        ],
+                        [
+                            "technique",
+                            "T1471"
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "The attackers encrypted the organization's data, and left a ransom note on one of the computers"
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "b42d263d-6c28-405c-a20c-8e3a34025f09",
+                "30": "f54c5181-4dce-450a-8b18-57638350f4b9",
+                "60": "af782796-5f7f-4e65-9f82-97f5c6d5fdef",
+                "90": "9a48e3a3-05ee-40ee-9501-4ce7f9c1b8ec",
+                "120": "aa857804-f8d8-4978-8590-7fab6814ee23",
+                "150": "731b8f50-bc65-4415-a867-47991ccd6798",
+                "180": "544bef45-5c4d-4edd-94b3-963461d4695c",
+                "210": "fb30d1a7-af2c-49e7-9742-692200a1392a",
+                "240": "f1a66203-14d5-4886-ab9c-ac430008cda4",
+                "270": "9f43a534-d46e-45ef-8c4d-bc3bcee6493d",
+                "300": "dcf362a3-2830-4bca-a091-08b6ac926215",
+                "330": "4587adb4-cbc0-4152-b9a6-8f9a78c01d74"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "b42d263d-6c28-405c-a20c-8e3a34025f09",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "f54c5181-4dce-450a-8b18-57638350f4b9",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "af782796-5f7f-4e65-9f82-97f5c6d5fdef",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "9a48e3a3-05ee-40ee-9501-4ce7f9c1b8ec",
+            "latches": [
+                "2351a60e-0f5e-4c82-8ea9-44b9a62de2c1"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "aa857804-f8d8-4978-8590-7fab6814ee23",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "731b8f50-bc65-4415-a867-47991ccd6798",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "544bef45-5c4d-4edd-94b3-963461d4695c",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "fb30d1a7-af2c-49e7-9742-692200a1392a",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "f1a66203-14d5-4886-ab9c-ac430008cda4",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "9f43a534-d46e-45ef-8c4d-bc3bcee6493d",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "dcf362a3-2830-4bca-a091-08b6ac926215",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "4587adb4-cbc0-4152-b9a6-8f9a78c01d74",
+            "latches": []
+        }
+    ],
+    "layout": {
+        "ebab4291-bfbf-45d4-9082-8abbaef85dc6": [
+            -15,
+            -85
+        ],
+        "f89187fc-7e57-4139-ad62-2ea1ae89321d": [
+            10,
+            -475
+        ],
+        "17a12fe7-e6c1-4516-9e4e-8575b841333a": [
+            -15,
+            325
+        ],
+        "12ddb316-0d55-4a47-9dd1-edecc1650489": [
+            -15,
+            675
+        ],
+        "429c307a-85ce-4d88-9cb6-6f4e5db33334": [
+            -15,
+            1025
+        ],
+        "931e87f2-20ea-44e8-8601-95c0542be3f5": [
+            -20,
+            1355
+        ],
+        "f11c8ade-d80d-448e-92e5-bc026ad6e45b": [
+            5,
+            1715
+        ]
+    },
+    "camera": {
+        "x": -850,
+        "y": 984,
+        "k": 0.24809156063479332
+    }
+}
