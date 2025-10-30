@@ -1,0 +1,1319 @@
+{
+    "schema": "attack_flow_v2",
+    "theme": "dark_theme",
+    "objects": [
+        {
+            "id": "flow",
+            "instance": "f6d2f619-5d61-4512-a07f-27c8180b5a79",
+            "properties": [
+                [
+                    "name",
+                    "Zoom Meeting Scams"
+                ],
+                [
+                    "description",
+                    null
+                ],
+                [
+                    "author",
+                    [
+                        [
+                            "name",
+                            "Hayden Abrahams"
+                        ],
+                        [
+                            "identity_class",
+                            null
+                        ],
+                        [
+                            "contact_information",
+                            null
+                        ]
+                    ]
+                ],
+                [
+                    "scope",
+                    "incident"
+                ],
+                [
+                    "external_references",
+                    [
+                        [
+                            "fb76c1a92253bcdadea78d7d6ef5df60",
+                            [
+                                [
+                                    "source_name",
+                                    "Cofense"
+                                ],
+                                [
+                                    "description",
+                                    null
+                                ],
+                                [
+                                    "url",
+                                    "https://cofense.com/blog/fake-zoom-call-lures-for-zoom-workplace-credentials"
+                                ]
+                            ]
+                        ],
+                        [
+                            "be2fecb9d45ec06646838f49acd9edd0",
+                            [
+                                [
+                                    "source_name",
+                                    "APWG"
+                                ],
+                                [
+                                    "description",
+                                    null
+                                ],
+                                [
+                                    "url",
+                                    "https://docs.apwg.org/reports/apwg_trends_report_q1_2020.pdf"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                [
+                    "created",
+                    {
+                        "time": "2025-10-30T11:00:06.558+10:30",
+                        "zone": "Australia/Adelaide"
+                    }
+                ]
+            ],
+            "objects": [
+                "c5a513b2-a2b2-48ff-bb6d-fdfb4f995c67",
+                "d0f74c26-fa2c-414e-826e-ad40339404cc",
+                "af71cb93-0e53-4c6d-a07a-cece8a432b8f",
+                "9a20d95d-da6d-4aae-ab75-200d528e4ae4",
+                "4dfe48bb-73eb-4055-a28f-b64aafff5761",
+                "48d8768e-7d33-4f5c-bed6-4024e37aed1c",
+                "4e9b5914-344d-45e8-9700-384251cc89ae",
+                "b9c00794-f15f-437d-bd82-f3e8cf9bafef",
+                "a70089a0-3a32-416f-a981-397de9b0cd5d",
+                "5703c949-aae1-4c46-97a1-fb35c6e26f61",
+                "a450379d-c063-4dd7-b95b-a687b42a0f4c",
+                "aeb7bc63-b93c-40af-8429-043e923e6aa3",
+                "05cade40-1c43-4064-8ebc-12d8db38c1af",
+                "b879e336-aa1a-487d-93e4-044853749fbe",
+                "13c3ce0a-a0c5-4ade-83cc-7a62c15da188",
+                "cc9739a6-d6c0-4872-8a1c-120d141aa487",
+                "12e208b0-0a34-4171-b9ab-494805a4c220"
+            ]
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "c5a513b2-a2b2-48ff-bb6d-fdfb4f995c67",
+            "source": "e1136766-a99d-4340-9d8d-d9feaafb4568",
+            "target": "51cc93d0-a393-4f2f-b342-8333a2f475ff",
+            "handles": [
+                "5dbc8552-d856-4015-8b1e-cd7f4d2b6504"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "e1136766-a99d-4340-9d8d-d9feaafb4568"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "51cc93d0-a393-4f2f-b342-8333a2f475ff"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "5dbc8552-d856-4015-8b1e-cd7f4d2b6504"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "d0f74c26-fa2c-414e-826e-ad40339404cc",
+            "source": "fe1278ea-df12-49c6-a69a-60cc1a95978b",
+            "target": "f25efaf0-beb4-42f9-bb7d-a55821221316",
+            "handles": [
+                "3bf9e0de-b1bf-4cfa-b596-095949b4cbb5"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "fe1278ea-df12-49c6-a69a-60cc1a95978b"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "f25efaf0-beb4-42f9-bb7d-a55821221316"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "3bf9e0de-b1bf-4cfa-b596-095949b4cbb5"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "af71cb93-0e53-4c6d-a07a-cece8a432b8f",
+            "source": "b3688d19-ed35-4c9f-826f-0a509d724463",
+            "target": "73ae74e8-7c4b-4dc5-8054-57f39d723f2f",
+            "handles": [
+                "95922bd2-10b6-4e5f-a7ff-5d52f4df4763"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "b3688d19-ed35-4c9f-826f-0a509d724463"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "73ae74e8-7c4b-4dc5-8054-57f39d723f2f"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "95922bd2-10b6-4e5f-a7ff-5d52f4df4763"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "9a20d95d-da6d-4aae-ab75-200d528e4ae4",
+            "source": "1996a5cc-6116-42cb-8d0f-d21ca63cbe47",
+            "target": "b50f4b91-760d-494b-9f86-45de1662eb24",
+            "handles": [
+                "dafbbca6-d05d-40b4-b78b-08b9bd10b501"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "1996a5cc-6116-42cb-8d0f-d21ca63cbe47"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "b50f4b91-760d-494b-9f86-45de1662eb24"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "dafbbca6-d05d-40b4-b78b-08b9bd10b501"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "4dfe48bb-73eb-4055-a28f-b64aafff5761",
+            "source": "9e49e53b-b984-4d9c-8b2a-5736cc7d4703",
+            "target": "98b6681a-0557-4d3f-ba1e-d1e2ca63cc7b",
+            "handles": [
+                "5ee924e9-2505-48c3-9223-3b4a72633304"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "9e49e53b-b984-4d9c-8b2a-5736cc7d4703"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "98b6681a-0557-4d3f-ba1e-d1e2ca63cc7b"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "5ee924e9-2505-48c3-9223-3b4a72633304"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "48d8768e-7d33-4f5c-bed6-4024e37aed1c",
+            "source": "f5322d30-4bdf-45ae-86b8-2a977cb267e5",
+            "target": "7c7316c6-cd75-41b4-8223-27e07689c984",
+            "handles": [
+                "c1df49c6-3883-4856-9e2d-b329f98de075"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "f5322d30-4bdf-45ae-86b8-2a977cb267e5"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "7c7316c6-cd75-41b4-8223-27e07689c984"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "c1df49c6-3883-4856-9e2d-b329f98de075"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "4e9b5914-344d-45e8-9700-384251cc89ae",
+            "source": "33430653-dcee-4237-95ee-b0ab154db8ad",
+            "target": "50ebb127-676d-459a-8e73-7918a105e2fe",
+            "handles": [
+                "47498d11-5af0-42f0-8d88-370d79fddd41"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "33430653-dcee-4237-95ee-b0ab154db8ad"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "50ebb127-676d-459a-8e73-7918a105e2fe"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "47498d11-5af0-42f0-8d88-370d79fddd41"
+        },
+        {
+            "id": "dynamic_line",
+            "instance": "b9c00794-f15f-437d-bd82-f3e8cf9bafef",
+            "source": "6f010627-bbcd-486a-a829-1d98e095044b",
+            "target": "22b6ebec-0e6e-475c-8dc4-caeec2a8b08e",
+            "handles": [
+                "e21aaa3a-4e3b-4743-884e-27608824d63e"
+            ]
+        },
+        {
+            "id": "generic_latch",
+            "instance": "6f010627-bbcd-486a-a829-1d98e095044b"
+        },
+        {
+            "id": "generic_latch",
+            "instance": "22b6ebec-0e6e-475c-8dc4-caeec2a8b08e"
+        },
+        {
+            "id": "generic_handle",
+            "instance": "e21aaa3a-4e3b-4743-884e-27608824d63e"
+        },
+        {
+            "id": "action",
+            "instance": "a70089a0-3a32-416f-a981-397de9b0cd5d",
+            "properties": [
+                [
+                    "name",
+                    "Reconnaissance"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0043"
+                        ],
+                        [
+                            "technique",
+                            null
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "The attackers would gather information about their target and their role, though social media, LinkedIn or organization websites, to improve the effectiveness of spearphishing"
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "be091594-4f55-40b8-8011-e2b8258ed009",
+                "30": "ca78f748-ccce-41ae-91c3-15245cf0fa4f",
+                "60": "2e4bd971-2405-4a4d-a933-c3e5f40e08da",
+                "90": "981cc941-b25a-425a-80fe-63369cd0caf6",
+                "120": "535979c2-731d-4efd-87ba-e0363996b973",
+                "150": "ed4cbd9b-11f9-4a42-bc4b-1d21cc87fe19",
+                "180": "70a10f87-4257-47f2-8ae8-92663631a9aa",
+                "210": "6a4c422b-8d4a-4393-9b69-880f49c3cc94",
+                "240": "e6763cbc-ed35-49d4-a7c3-feb4ba368869",
+                "270": "4dcc8dfb-318f-4a66-8dc7-ff1d6de3dbb7",
+                "300": "98623914-f029-40a0-b780-2321d8fb4702",
+                "330": "04233004-b845-4938-9ac6-50554b684e40"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "be091594-4f55-40b8-8011-e2b8258ed009",
+            "latches": [
+                "e1136766-a99d-4340-9d8d-d9feaafb4568"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "ca78f748-ccce-41ae-91c3-15245cf0fa4f",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "2e4bd971-2405-4a4d-a933-c3e5f40e08da",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "981cc941-b25a-425a-80fe-63369cd0caf6",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "535979c2-731d-4efd-87ba-e0363996b973",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "ed4cbd9b-11f9-4a42-bc4b-1d21cc87fe19",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "70a10f87-4257-47f2-8ae8-92663631a9aa",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "6a4c422b-8d4a-4393-9b69-880f49c3cc94",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "e6763cbc-ed35-49d4-a7c3-feb4ba368869",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "4dcc8dfb-318f-4a66-8dc7-ff1d6de3dbb7",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "98623914-f029-40a0-b780-2321d8fb4702",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "04233004-b845-4938-9ac6-50554b684e40",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "5703c949-aae1-4c46-97a1-fb35c6e26f61",
+            "properties": [
+                [
+                    "name",
+                    "Fake Zoom Login"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0042"
+                        ],
+                        [
+                            "technique",
+                            "T1583.001"
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "The attackers purchase a domain that looks similar to the real Zoom domain at a passing glance, and create a fake Zoom landing page."
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "2d8a029e-0fd5-4141-bfb4-96252ce0eecb",
+                "30": "0b12224d-51bb-435e-8727-e6bebd5a430e",
+                "60": "33f4719b-097a-4c33-adf8-3b2885a632e6",
+                "90": "54ec4405-9e5b-43f3-a31a-0443f9a46c62",
+                "120": "ccf772a1-ead9-482d-8afa-934de73dafe6",
+                "150": "4e3d4a39-ea67-41c8-b4ba-085a900fde74",
+                "180": "1adc7354-fb6d-4a5d-b3ea-892dcd3db341",
+                "210": "d77591b3-5027-4bf4-a0c6-6e1d50dc8ebb",
+                "240": "87dfacef-5038-4f02-9f1d-e949ba08fbb1",
+                "270": "9ed4a3ea-b77d-4721-9732-33d9aa0c2e98",
+                "300": "de3d444d-f3aa-4649-ac81-e8ecbed41077",
+                "330": "d227e1b9-b692-4ea1-a8c5-f10bb045c0f1"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "2d8a029e-0fd5-4141-bfb4-96252ce0eecb",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "0b12224d-51bb-435e-8727-e6bebd5a430e",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "33f4719b-097a-4c33-adf8-3b2885a632e6",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "54ec4405-9e5b-43f3-a31a-0443f9a46c62",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "ccf772a1-ead9-482d-8afa-934de73dafe6",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "4e3d4a39-ea67-41c8-b4ba-085a900fde74",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "1adc7354-fb6d-4a5d-b3ea-892dcd3db341",
+            "latches": [
+                "fe1278ea-df12-49c6-a69a-60cc1a95978b"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "d77591b3-5027-4bf4-a0c6-6e1d50dc8ebb",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "87dfacef-5038-4f02-9f1d-e949ba08fbb1",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "9ed4a3ea-b77d-4721-9732-33d9aa0c2e98",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "de3d444d-f3aa-4649-ac81-e8ecbed41077",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "d227e1b9-b692-4ea1-a8c5-f10bb045c0f1",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "a450379d-c063-4dd7-b95b-a687b42a0f4c",
+            "properties": [
+                [
+                    "name",
+                    "Spearphishing Link"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0001"
+                        ],
+                        [
+                            "technique",
+                            "T1566.002"
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "The attacker sends spearphising emails to targeted employees, using previous reconnaissance to to make them seem like normal emails. The email urgently requests the victim to join a zoom meeting, with a malicious link."
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "e7cd87fc-067f-4809-8d68-fb55cefc9b78",
+                "30": "0751989d-daae-4b44-9583-83159288031c",
+                "60": "d4bd4f8a-270e-4821-b191-9d8944ce8b57",
+                "90": "831c19d9-6982-407f-a9ec-a07fbb55da15",
+                "120": "725ef04b-c43d-4933-ba83-f23b8e563fdc",
+                "150": "15801a38-00e2-4b9b-847b-f3c3dea45381",
+                "180": "cffb9b35-d71f-4138-ada7-ba4344afcf6a",
+                "210": "ab781b3c-e150-4d6b-a367-dafe238118e3",
+                "240": "b6eec79e-a00c-4a9d-9c6b-eb781420c1d1",
+                "270": "cc7a217d-815a-4924-b10c-248191402b04",
+                "300": "3dcd84f8-3385-4330-81fb-523087ec4b9f",
+                "330": "631fdc3f-8a5b-4820-94d3-ae677ce133b1"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "e7cd87fc-067f-4809-8d68-fb55cefc9b78",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "0751989d-daae-4b44-9583-83159288031c",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "d4bd4f8a-270e-4821-b191-9d8944ce8b57",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "831c19d9-6982-407f-a9ec-a07fbb55da15",
+            "latches": [
+                "51cc93d0-a393-4f2f-b342-8333a2f475ff",
+                "f25efaf0-beb4-42f9-bb7d-a55821221316"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "725ef04b-c43d-4933-ba83-f23b8e563fdc",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "15801a38-00e2-4b9b-847b-f3c3dea45381",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "cffb9b35-d71f-4138-ada7-ba4344afcf6a",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "ab781b3c-e150-4d6b-a367-dafe238118e3",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "b6eec79e-a00c-4a9d-9c6b-eb781420c1d1",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "cc7a217d-815a-4924-b10c-248191402b04",
+            "latches": [
+                "b3688d19-ed35-4c9f-826f-0a509d724463"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "3dcd84f8-3385-4330-81fb-523087ec4b9f",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "631fdc3f-8a5b-4820-94d3-ae677ce133b1",
+            "latches": []
+        },
+        {
+            "id": "note",
+            "instance": "aeb7bc63-b93c-40af-8429-043e923e6aa3",
+            "properties": [
+                [
+                    "abstract",
+                    "Fake meeting and login page"
+                ],
+                [
+                    "content",
+                    "The malicious link leads to a high quality fake zoom meeting. The victim appears to successfully join the fake meeting, before getting an error message being asked to log back in. The login page is nearly identical to the real zoom one, and the email is already pre filled with the victim's email."
+                ],
+                [
+                    "authors",
+                    []
+                ]
+            ],
+            "anchors": {
+                "0": "cc34e38d-1888-4c01-9ebb-063addfc27e9",
+                "30": "8517ae8c-98d8-4de1-8d00-0dbd6ddee614",
+                "60": "5850f5c3-b550-406e-bbb4-f532f46d3d7b",
+                "90": "6059d36e-8974-4303-be1a-567a6761c818",
+                "120": "b7d5af0c-5d66-431c-80ce-9717a79300ef",
+                "150": "54519425-c2a8-45be-88c0-e9866e477268",
+                "180": "2882006b-15cf-4766-868a-c919fd145cec",
+                "210": "62640ed4-c963-4637-8f5b-0cbcac8e7cfe",
+                "240": "0f498474-5281-4d2c-876d-86f5b60ee9e6",
+                "270": "361a7dc7-9978-441f-9060-b3e4b66908f9",
+                "300": "ee10ee7b-873a-413a-a2f6-2e5d424f8c0f",
+                "330": "010c4b24-72e5-4d15-bb26-f2bd8295f4e7"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "cc34e38d-1888-4c01-9ebb-063addfc27e9",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "8517ae8c-98d8-4de1-8d00-0dbd6ddee614",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "5850f5c3-b550-406e-bbb4-f532f46d3d7b",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "6059d36e-8974-4303-be1a-567a6761c818",
+            "latches": [
+                "73ae74e8-7c4b-4dc5-8054-57f39d723f2f"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "b7d5af0c-5d66-431c-80ce-9717a79300ef",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "54519425-c2a8-45be-88c0-e9866e477268",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "2882006b-15cf-4766-868a-c919fd145cec",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "62640ed4-c963-4637-8f5b-0cbcac8e7cfe",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "0f498474-5281-4d2c-876d-86f5b60ee9e6",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "361a7dc7-9978-441f-9060-b3e4b66908f9",
+            "latches": [
+                "1996a5cc-6116-42cb-8d0f-d21ca63cbe47"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "ee10ee7b-873a-413a-a2f6-2e5d424f8c0f",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "010c4b24-72e5-4d15-bb26-f2bd8295f4e7",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "05cade40-1c43-4064-8ebc-12d8db38c1af",
+            "properties": [
+                [
+                    "name",
+                    "Exfiltration Over Web Service"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0010"
+                        ],
+                        [
+                            "technique",
+                            "T1567"
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "Once the victim submitted their credentials into the fake website, these are exfiltrated using Telegram to send the credentials back to the hackers."
+                ],
+                [
+                    "confidence",
+                    null
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "01361029-ec23-40ad-8ea6-38a2a409d695",
+                "30": "3f8ea532-b7ce-4dfc-b331-8fc8980b9d4a",
+                "60": "6914abad-909c-4fb5-8c8a-9abc35253ca9",
+                "90": "38c21436-606c-4690-93ba-df9956989803",
+                "120": "2b8a41f0-5b88-403b-bad2-e0132d4f5c01",
+                "150": "4d7e854c-b7a3-4680-ab1a-20d771f2274d",
+                "180": "b63172f1-d458-4a1e-87ee-2cef5fefdf38",
+                "210": "5443339a-5ac9-423d-be8d-c875af5d9325",
+                "240": "770da0f6-79e4-44df-9397-2024f76c39c4",
+                "270": "e75d3c5f-541c-4181-a7f4-4e6ef846c1f8",
+                "300": "1c1dd212-9158-4408-9415-ff55cf28c4b2",
+                "330": "e9d0ab2f-28fa-4591-892d-a28119a4a2e7"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "01361029-ec23-40ad-8ea6-38a2a409d695",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "3f8ea532-b7ce-4dfc-b331-8fc8980b9d4a",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "6914abad-909c-4fb5-8c8a-9abc35253ca9",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "38c21436-606c-4690-93ba-df9956989803",
+            "latches": [
+                "b50f4b91-760d-494b-9f86-45de1662eb24"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "2b8a41f0-5b88-403b-bad2-e0132d4f5c01",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "4d7e854c-b7a3-4680-ab1a-20d771f2274d",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "b63172f1-d458-4a1e-87ee-2cef5fefdf38",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "5443339a-5ac9-423d-be8d-c875af5d9325",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "770da0f6-79e4-44df-9397-2024f76c39c4",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "e75d3c5f-541c-4181-a7f4-4e6ef846c1f8",
+            "latches": [
+                "9e49e53b-b984-4d9c-8b2a-5736cc7d4703"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "1c1dd212-9158-4408-9415-ff55cf28c4b2",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "e9d0ab2f-28fa-4591-892d-a28119a4a2e7",
+            "latches": []
+        },
+        {
+            "id": "asset",
+            "instance": "b879e336-aa1a-487d-93e4-044853749fbe",
+            "properties": [
+                [
+                    "name",
+                    "Corporate Valid Zoom Accounts"
+                ],
+                [
+                    "description",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "7723a4e7-391d-464c-804e-89d87af0cbdd",
+                "30": "d523e978-8506-411a-8faa-a2411b9438dc",
+                "60": "cdf8dc1a-2ad5-491a-b2c0-e0a4af1edcf5",
+                "90": "1ba73af5-1729-4865-a6d8-a860fd3eeb8c",
+                "120": "71ff7654-f571-4c3f-b1c5-744edba1e255",
+                "150": "1bbf5956-db8c-47d7-9e38-9c8415429e0b",
+                "180": "9b1c65af-23f5-4252-bb41-3aa7dd850239",
+                "210": "c6207dd5-5eef-4680-9e17-17288d0f7906",
+                "240": "45dbd44f-57a0-4654-b671-380efdd33d48",
+                "270": "79e19387-1131-43ee-84c1-b985a4c3c4af",
+                "300": "badb8a10-2396-42fe-ad7f-606fa9ddb669",
+                "330": "6504c0dd-cc9a-4e70-9213-c06710b7e7d6"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "7723a4e7-391d-464c-804e-89d87af0cbdd",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "d523e978-8506-411a-8faa-a2411b9438dc",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "cdf8dc1a-2ad5-491a-b2c0-e0a4af1edcf5",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "1ba73af5-1729-4865-a6d8-a860fd3eeb8c",
+            "latches": [
+                "98b6681a-0557-4d3f-ba1e-d1e2ca63cc7b"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "71ff7654-f571-4c3f-b1c5-744edba1e255",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "1bbf5956-db8c-47d7-9e38-9c8415429e0b",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "9b1c65af-23f5-4252-bb41-3aa7dd850239",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "c6207dd5-5eef-4680-9e17-17288d0f7906",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "45dbd44f-57a0-4654-b671-380efdd33d48",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "79e19387-1131-43ee-84c1-b985a4c3c4af",
+            "latches": [
+                "f5322d30-4bdf-45ae-86b8-2a977cb267e5"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "badb8a10-2396-42fe-ad7f-606fa9ddb669",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "6504c0dd-cc9a-4e70-9213-c06710b7e7d6",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "13c3ce0a-a0c5-4ade-83cc-7a62c15da188",
+            "properties": [
+                [
+                    "name",
+                    "Valid Accounts"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0109"
+                        ],
+                        [
+                            "technique",
+                            "T0859"
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "The stolen Zoom credentials could be used to log into and attend corporate video calls, allowing them to perform further reconnaissance within the company, and possibly discover more vunerbilities."
+                ],
+                [
+                    "confidence",
+                    "probable"
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "7dcbce70-ae3f-40ea-82be-9534ea9fbed6",
+                "30": "76dab18b-b0e2-434a-b105-de91941a5eeb",
+                "60": "42eb54bf-9394-4f81-bd7c-83354c06ae23",
+                "90": "e88b9099-2ea1-491e-a430-07d9509199b5",
+                "120": "16b7af27-cbc0-43d8-8c83-1ae8211a35e8",
+                "150": "5ed58d57-44fb-421e-9a67-2496944e19ec",
+                "180": "0d1ccd8a-27ce-464d-8353-7656ebf6da16",
+                "210": "8a44277b-02ad-4c63-8470-7c24bb1926d5",
+                "240": "74070419-355c-4650-835b-898896d9f7d0",
+                "270": "f5ab8227-e34c-4588-8ff4-c780f3ed1492",
+                "300": "ccbce893-3163-4204-ba4a-a7b72741cf63",
+                "330": "752b79ec-0680-4964-b91e-84379b45d0fb"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "7dcbce70-ae3f-40ea-82be-9534ea9fbed6",
+            "latches": [
+                "33430653-dcee-4237-95ee-b0ab154db8ad"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "76dab18b-b0e2-434a-b105-de91941a5eeb",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "42eb54bf-9394-4f81-bd7c-83354c06ae23",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "e88b9099-2ea1-491e-a430-07d9509199b5",
+            "latches": [
+                "7c7316c6-cd75-41b4-8223-27e07689c984"
+            ]
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "16b7af27-cbc0-43d8-8c83-1ae8211a35e8",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "5ed58d57-44fb-421e-9a67-2496944e19ec",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "0d1ccd8a-27ce-464d-8353-7656ebf6da16",
+            "latches": [
+                "6f010627-bbcd-486a-a829-1d98e095044b"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "8a44277b-02ad-4c63-8470-7c24bb1926d5",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "74070419-355c-4650-835b-898896d9f7d0",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "f5ab8227-e34c-4588-8ff4-c780f3ed1492",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "ccbce893-3163-4204-ba4a-a7b72741cf63",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "752b79ec-0680-4964-b91e-84379b45d0fb",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "cc9739a6-d6c0-4872-8a1c-120d141aa487",
+            "properties": [
+                [
+                    "name",
+                    "Targeting Higher Level Employees"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0001"
+                        ],
+                        [
+                            "technique",
+                            "T1566"
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "If the attackers were able to sneak into corporate zoom meetings, they could use this opportunity to scout and target higher level employees with more permissions, using further spearphishing tactics"
+                ],
+                [
+                    "confidence",
+                    "speculative"
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "80c9fdc3-0c30-45d5-9472-ae3b92f6f229",
+                "30": "7f06a786-52ed-42f9-80d1-a4cfae05964d",
+                "60": "7741a87a-dab1-41a0-88b7-66ba6b63005d",
+                "90": "af42356e-4b1b-4674-8b14-b5d672341258",
+                "120": "5a3d14d0-2640-43e2-899e-e4ebbaca51af",
+                "150": "e59b91ca-e0b6-468c-998b-e3e4be68a407",
+                "180": "f48c212c-57e9-41a2-a888-b90f5208eadf",
+                "210": "9c729494-0436-4749-9b90-74ac0807cd53",
+                "240": "3f95d913-e71a-4f09-9150-fd65e6706041",
+                "270": "5daf5924-9cee-44a2-af7c-c141b3a7c6e6",
+                "300": "acf37871-330d-4dd6-9517-2f78d819ce0b",
+                "330": "1b5479bd-3787-4120-bdd2-018fe9967684"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "80c9fdc3-0c30-45d5-9472-ae3b92f6f229",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "7f06a786-52ed-42f9-80d1-a4cfae05964d",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "7741a87a-dab1-41a0-88b7-66ba6b63005d",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "af42356e-4b1b-4674-8b14-b5d672341258",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "5a3d14d0-2640-43e2-899e-e4ebbaca51af",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "e59b91ca-e0b6-468c-998b-e3e4be68a407",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "f48c212c-57e9-41a2-a888-b90f5208eadf",
+            "latches": [
+                "50ebb127-676d-459a-8e73-7918a105e2fe"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "9c729494-0436-4749-9b90-74ac0807cd53",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "3f95d913-e71a-4f09-9150-fd65e6706041",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "5daf5924-9cee-44a2-af7c-c141b3a7c6e6",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "acf37871-330d-4dd6-9517-2f78d819ce0b",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "1b5479bd-3787-4120-bdd2-018fe9967684",
+            "latches": []
+        },
+        {
+            "id": "action",
+            "instance": "12e208b0-0a34-4171-b9ab-494805a4c220",
+            "properties": [
+                [
+                    "name",
+                    "Credential Access"
+                ],
+                [
+                    "ttp",
+                    [
+                        [
+                            "tactic",
+                            "TA0006"
+                        ],
+                        [
+                            "technique",
+                            null
+                        ]
+                    ]
+                ],
+                [
+                    "description",
+                    "Attackers could attempt to use the zoom credentials to log into other accounts, on the chance that the victim reused passwords."
+                ],
+                [
+                    "confidence",
+                    "speculative"
+                ],
+                [
+                    "execution_start",
+                    null
+                ],
+                [
+                    "execution_end",
+                    null
+                ]
+            ],
+            "anchors": {
+                "0": "6746abfd-5697-47e4-af7b-4389a36f8113",
+                "30": "e90c0f13-ffeb-4aea-ac7e-da75902e184c",
+                "60": "8abb28b5-7225-41ed-a27e-4c3a15e10eeb",
+                "90": "1ff64af1-73ec-48b5-9932-8dfc432d5c71",
+                "120": "30757b95-0188-4275-b16d-6ce860ec5da4",
+                "150": "1618878a-3f74-4815-9621-bbc2affc455a",
+                "180": "2326be1e-8b02-42c0-a0ea-137e1cd54b02",
+                "210": "110f67e0-323c-47e4-a4a8-27c69ba44c63",
+                "240": "f6749e56-9b34-45e5-9555-c3ef0338f18d",
+                "270": "c6632555-b763-46a3-a381-c67b855c8b5f",
+                "300": "6453bdff-db42-44fb-a57f-fdb8ba806862",
+                "330": "886a8e38-fab2-457d-bec9-3dc6e2ac519f"
+            }
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "6746abfd-5697-47e4-af7b-4389a36f8113",
+            "latches": [
+                "22b6ebec-0e6e-475c-8dc4-caeec2a8b08e"
+            ]
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "e90c0f13-ffeb-4aea-ac7e-da75902e184c",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "8abb28b5-7225-41ed-a27e-4c3a15e10eeb",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "1ff64af1-73ec-48b5-9932-8dfc432d5c71",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "30757b95-0188-4275-b16d-6ce860ec5da4",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "1618878a-3f74-4815-9621-bbc2affc455a",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "2326be1e-8b02-42c0-a0ea-137e1cd54b02",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "110f67e0-323c-47e4-a4a8-27c69ba44c63",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "f6749e56-9b34-45e5-9555-c3ef0338f18d",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "c6632555-b763-46a3-a381-c67b855c8b5f",
+            "latches": []
+        },
+        {
+            "id": "vertical_anchor",
+            "instance": "6453bdff-db42-44fb-a57f-fdb8ba806862",
+            "latches": []
+        },
+        {
+            "id": "horizontal_anchor",
+            "instance": "886a8e38-fab2-457d-bec9-3dc6e2ac519f",
+            "latches": []
+        }
+    ],
+    "layout": {
+        "a70089a0-3a32-416f-a981-397de9b0cd5d": [
+            -185,
+            -230
+        ],
+        "5703c949-aae1-4c46-97a1-fb35c6e26f61": [
+            350,
+            -230
+        ],
+        "a450379d-c063-4dd7-b95b-a687b42a0f4c": [
+            75,
+            145
+        ],
+        "aeb7bc63-b93c-40af-8429-043e923e6aa3": [
+            75,
+            525
+        ],
+        "05cade40-1c43-4064-8ebc-12d8db38c1af": [
+            75,
+            875
+        ],
+        "b879e336-aa1a-487d-93e4-044853749fbe": [
+            75,
+            1125
+        ],
+        "13c3ce0a-a0c5-4ade-83cc-7a62c15da188": [
+            75,
+            1400
+        ],
+        "cc9739a6-d6c0-4872-8a1c-120d141aa487": [
+            560,
+            1400
+        ],
+        "12e208b0-0a34-4171-b9ab-494805a4c220": [
+            -370,
+            1400
+        ]
+    },
+    "camera": {
+        "x": -767,
+        "y": 578,
+        "k": 0.23530487058372754
+    }
+}
